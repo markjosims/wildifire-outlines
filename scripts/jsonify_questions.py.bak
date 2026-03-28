@@ -1,0 +1,36 @@
+"""
+Read questions stored in Markdown files and serialize as JSON files
+for easy loading into LLM.
+"""
+
+import re
+import json
+
+questions_a = "./wildfire_questions_A.md"
+questions_b = "./wildfire_questions_B.md"
+
+question_b_regex = "\s*.*Concept (?P<concept_num>\d+) – (?P<concept_description>.*)\s*(?P<question_format>.*)\s*(?P<question_text>[\s\S]*)\s*Answer:?\s(?P<answer>.*)\s*Explanation\s*(?P<explanation_text>[\s\S]*)"
+
+
+json_data = []
+
+with open(questions_b) as f:
+    question_b_content = f.read()
+
+question_b_chapters = question_b_content.split("**CHAPTER")[1:]
+for chapter_text in question_b_chapters:
+    chapter_line = re.match(r"(\s*.*\n)", chapter_text).group(1)
+    chapter = re.match(r"\s*(\d+)", chapter_line).group(1)
+    chapter_text = chapter_text.removeprefix(chapter_line)
+
+    chapter_data = []
+    for concept_text in chapter_text.split("---"):
+        search_result = re.search(question_b_regex, concept_text)
+        json_obj = search_result.groupdict()
+        chapter_data.append(json_obj)
+    json_data.append(
+        {
+            "chapter": chapter,
+            "questions": chapter_data,
+        }
+    )

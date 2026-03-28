@@ -1,0 +1,908 @@
+[
+  {
+    "chapter": "1",
+    "title": "Fireline Safety",
+    "questions": [
+      {
+        "concept_description": "Fire Shelter — Last-Resort Survival",
+        "difficulty": "Easy",
+        "question_text": "True or False: After you deploy your fire shelter in an entrapment, you should try to move to a “better” spot if it looks slightly cooler.",
+        "answer": "False – Once inside, stay put and keep the shelter sealed to the ground; moving exposes you to lethal heat. Choose a clear, fuel-free site before deployment and hold the shelter down until the front passes. (pp. 22–23).\n\n---"
+      },
+      {
+        "concept_description": "Heat Stress, Fatigue, and Hydration",
+        "difficulty": "Easy",
+        "question_text": "On a break you rest for one minute and check your pulse. Which reading suggests your break was long enough for recovery on the fireline?\n\n**A.** 128 beats/min  \n **B.** 118 beats/min  \n **C.** Less than 110 beats/min  \n **D.** 144 beats/min",
+        "answer": "C – Less than 110 beats/min. A pulse under \\~110 after a short rest indicates adequate recovery; higher rates signal ongoing fatigue/dehydration risk. (p. 8). *Distractors:* A/B/D are too high and indicate insufficient recovery.\n\n---"
+      },
+      {
+        "concept_description": "Ten Standard Firefighting Orders (Applying the “Fire Behavior” group)",
+        "difficulty": "Medium",
+        "question_text": "Forecasts call for a cold front and winds later today. Before continuing line construction, which action best aligns with the “Fire Behavior” group of the Fire Orders to keep you out of trouble?\n\n**A.** Concentrate personnel in one area to simplify control  \n **B.** Give detailed tactical instructions to the crew  \n **C.** Request, monitor, and compare on-site weather with the forecast, then adjust tactics  \n **D.** Attack the head aggressively to finish before the wind shift",
+        "answer": "C – Keep informed on fire weather and base actions on expected behavior. Track tactical readings and the forecast, then adapt strategy. (pp. 33–34). *Distractors:* A/B are “Operational Control,” not weather-driven prevention; D risks exposure at the head during a shift.\n\n---"
+      },
+      {
+        "concept_description": "18 “Watch Out” Situations — Night/Unscouted Terrain",
+        "difficulty": "Medium",
+        "question_text": "It’s 2200 in country you haven’t seen in daylight. What is the safest immediate approach?\n\n**A.** Proceed without headlamps so eyes adjust  \n **B.** Scout or obtain intel on hazards, use headlamps, stay near the fireline, and maintain close contact  \n **C.** Build downhill line with fire below to “box it in” quickly  \n **D.** Make a frontal assault while visibility is low to get ahead of it",
+        "answer": "B – Night operations in unfamiliar terrain call for scouting/intel, headlamps, working as close to the line as possible, and tight comms. (pp. 52–53). *Distractors:* A sacrifices visibility; C is a “three-star” hazard when fire is below; D increases exposure at the head with poor visibility.\n\n---"
+      },
+      {
+        "concept_description": "LCES — Maintaining Communications in Noise",
+        "difficulty": "Medium",
+        "question_text": "Radios are unreliable and saws/engines are loud. What immediate adjustment best preserves LCES communications on the line?\n\n**A.** Increase spacing so voices travel farther  \n **B.** Pause all check-ins until radios return  \n **C.** Shorten distance between firefighters and pass messages by word of mouth on a fixed schedule  \n **D.** Stop operations to avoid “too much radio traffic”",
+        "answer": "C – When radios fail or noise is high, close the distance and relay by word of mouth with regular reporting times. (p. 68). *Distractors:* A makes hearing worse; B/D remove the safety net.\n\n---"
+      },
+      {
+        "concept_description": "Heat Stress, Fatigue, and Hydration",
+        "difficulty": "Hard",
+        "question_text": "**Numeric scenario.** A 16-hour shift: first 10 h at 1.5 qt/h of sweat loss, next 6 h at 0.8 qt/h. The firefighter drank 12 qt total. (1) How many more quarts are needed to replace estimated losses for the shift? (2) How many hours of sleep should they plan after the shift, following the work–rest rule of thumb?",
+        "answer": "7.8 qt and 8 h – (1) Loss \\= 10×1.5 \\+ 6×0.8 \\= 15 \\+ 4.8 \\= **19.8 qt**; deficit \\= 19.8 − 12 \\= **7.8 qt**. (2) Sleep ≈ **16/2 \\= 8 h** to control fatigue. Replacing fluids and sleep mitigate heat stress and error risk. *Formulas:* Loss \\= rate×time; Sleep ≈ 1 h per 2 h worked. (pp. 8–10).\n\n---"
+      },
+      {
+        "concept_description": "Fire Shelter — Last-Resort Survival",
+        "difficulty": "Hard",
+        "question_text": "**Decision MCQ.** You’re in heavy timber; flame front is imminent; an engine cab is nearby. What’s the best survival choice?\n\n**A.** Stay in the cab in heavy fuels; cab plastics off-gas but it’s cooler  \n **B.** Use the engine as a shield but deploy on the ground away from heavy fuels; drop gear, seal and hold the shelter to the ground  \n **C.** Run uphill toward higher ground without deploying  \n **D.** Stand and hold the shelter chest-high to “catch” cooler air",
+        "answer": "B – In heavy fuels, use the engine as a shield and deploy on cleared ground away from heat sources; drop flammables, seal/hold the shelter, and stay inside. (pp. 22–23). *Distractors:* A may force you out due to toxic off-gassing; C sacrifices precious seconds; D fails to seal the shelter to the ground.\n\n---"
+      },
+      {
+        "concept_description": "LCES — Escape Routes Measured in Time",
+        "difficulty": "Hard",
+        "question_text": "**Numeric decision.** Trigger point gives 4 minutes from warning to flame front. Crew pace when tired is 2 mph. Two options: Route A is 0.6 mi on a dozer line (downhill); Route B is 0.4 mi on a narrow trail (uphill). Which meets the trigger, and what should you do?",
+        "answer": "Neither – At 2 mph, time/mi \\= 30 min ⇒ A: 0.6×30 \\= **18 min**; B: 0.4×30 \\= **12 min**. Both exceed 4 min. You must shorten the distance, create a faster route, and avoid uphill routes when possible. Escape routes are measured in **minutes/seconds**, planned with fatigue in mind. (pp. 68–70, 75–76).\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "2",
+    "title": "Fire Weather",
+    "questions": [
+      {
+        "concept_description": "Winds & Fire Spread",
+        "difficulty": "Easy",
+        "question_text": "On a grass fire, your lookout reads a 12-mph wind at 20 feet, but flame lengths are only 3 feet. Which wind measurement best predicts the direction the flame front will actually move and is used to calculate rate of spread?  \n **A.** General wind from the regional forecast  \n **B.** 20-ft surface wind  \n **C.** Mid-flame wind at about half the flame height  \n **D.** Winds aloft measured by a weather balloon",
+        "answer": "C – Mid-flame wind. It is the wind acting where combustion occurs and is the driver for flame-front movement and spread calculations. *Distractors:* A is too coarse for fireline decisions; B can differ markedly from wind inside the fuelbed; D often differs in speed/direction from surface flow. (Winds: definitions and effects, pp. 72–80.)"
+      },
+      {
+        "concept_description": "Relative Humidity & Temperature",
+        "difficulty": "Easy",
+        "question_text": "True or False: As the afternoon temperature rises, relative humidity typically rises too, making fine fuels moister.",
+        "answer": "False – As temperature goes up, relative humidity goes down, drying fine fuels and increasing fire behavior potential. (Relationship of temperature and RH, pp. 90–95.)"
+      },
+      {
+        "concept_description": "Inversion Layers & Thermal Belts",
+        "difficulty": "Easy",
+        "question_text": "In the early morning, smoke from a valley fire rises, hits a warm layer aloft, flattens, and spreads sideways. That warm layer acting like a cap is called an \\_\\_\\_\\_\\_\\_\\_\\_.",
+        "answer": "Inversion layer. It is a very stable layer where temperature increases with height, limiting vertical motion so smoke spreads horizontally. (Inversions: definition/effects, pp. 101–105.)"
+      },
+      {
+        "concept_description": "Winds & Fire Spread",
+        "difficulty": "Medium",
+        "question_text": "It’s 1400 on a clear summer day on a sun-heated midslope above a broad valley. Which local wind pattern is most likely at the fireline?  \n **A.** Gentle downslope 2–5 mph  \n **B.** Upslope 3–8 mph, with developing up-valley 10–15 mph influence  \n **C.** Nighttime land breeze 3–10 mph blowing seaward  \n **D.** Calm, because morning inversion persists",
+        "answer": "B – Daytime solar heating drives upslope winds; large valleys also develop stronger up-valley winds by early afternoon. *Distractors:* A describes nighttime flow; C is a coastal night pattern; D inversions usually weaken/break before noon on sunny days. (Slope/valley winds, pp. 72–80, 23–24 outline.)"
+      },
+      {
+        "concept_description": "Relative Humidity & Temperature",
+        "difficulty": "Medium",
+        "question_text": "At 0600 the temperature is 60 °F with 60% RH. Forecast high is 80 °F. Using the 20-degree rule of thumb, estimate the afternoon RH.",
+        "answer": "\\~30% – A 20 °F rise roughly halves RH (≈60% → ≈30%), indicating much drier fuels by afternoon. *Working:* ΔT \\= \\+20 °F → RH ≈ RH/2. (RH change with temperature, pp. 90–95.)"
+      },
+      {
+        "concept_description": "Problem Winds & Fronts/Thunderstorms",
+        "difficulty": "Medium",
+        "question_text": "A dry cold front is approaching your division. Which wind evolution is most typical as it passes?  \n **A.** South → Southeast → East, gentle and steady  \n **B.** Southeast → South → Southwest, then a rapid shift to West → Northwest with gusts  \n **C.** North → Northeast, then calm  \n **D.** Steady onshore sea breeze all day",
+        "answer": "B – Cold fronts commonly bring increasing winds and a sharp post-frontal shift to W/NW, often gusty. *Distractors:* A/C don’t reflect the characteristic sharp post-frontal veer; D describes coastal sea breezes, not frontal passage. (Cold front winds, pp. 80–86.)"
+      },
+      {
+        "concept_description": "Problem Winds & Fronts/Thunderstorms",
+        "difficulty": "Hard",
+        "question_text": "A maturing thunderstorm is building upwind of an active flank. You are between the fire and the storm, and you see virga and a rolling cloud base. What should you do?  \n **A.** Reposition so you are not between fire and storm; anticipate strong, erratic outflow gusts; suspend firing; brief escape routes  \n **B.** Use the gust front to “push” the fire into your burnout  \n **C.** Drop to the canyon bottom to “hide” from winds  \n **D.** Keep working until you see lightning nearby",
+        "answer": "A – Thunderstorm downdrafts (gust fronts/microbursts) can produce 25–60+ mph, highly erratic winds; being between the fire and storm is especially dangerous. *Distractors:* B risks sudden blow-ups; C funnels winds and can trap crews; D delays action until it’s too late. (Thunderstorm indicators/downdrafts, pp. 83–88.)"
+      },
+      {
+        "concept_description": "Atmospheric Stability & Lapse Rate",
+        "difficulty": "Hard",
+        "question_text": "A morning sounding shows 70 °F at 1,000 ft and 58 °F at 3,000 ft. Is the lower atmosphere stable, neutral, or unstable for vertical motion?",
+        "answer": "Unstable – Temperature drop is 12 °F over 2,000 ft → 6 °F/1,000 ft, which is greater than the dry adiabatic 5.5 °F/1,000 ft threshold, favoring vertical motion and more active fire behavior. *Formula/Steps:* Lapse Rate \\= |ΔT|/Δz \\= 12/2000 \\= 0.006 °F/ft \\= 6 °F/1,000 ft \\> 5.5 → unstable. (Stability and lapse rates, pp. 95–101.)"
+      },
+      {
+        "concept_description": "Inversion Layers & Thermal Belts",
+        "difficulty": "Hard",
+        "question_text": "Evening operations near the coast: Santa Ana winds are degrading and a marine layer is pushing inland. The smoke column wavers with sudden calms (“battling winds”). What’s the best call on ignition operations?  \n **A.** Continue burnout; winds will remain steadily offshore  \n **B.** Pause/secure firing until the wind trend stabilizes; expect abrupt 180° shifts during the transition  \n **C.** Accelerate firing to finish before up-valley winds increase  \n **D.** Proceed aggressively; nighttime conditions will be calm",
+        "answer": "B – As foehn flow weakens and marine air intrudes, winds can reverse rapidly, endangering crews and firing plans; suspending firing avoids rapid wind flips. *Distractors:* A/D ignore documented reversals; C speeds operations into the hazard window. (Foehn/marine “battling winds,” pp. 80–86, 101–105.)"
+      },
+      {
+        "concept_description": "Winds & Fire Spread",
+        "difficulty": "Hard",
+        "question_text": "You plan indirect line below a thermal belt on a mountain slope for a next-day burnout. Night forecast calls for a strong nighttime inversion and poor humidity recovery. What is your best timing/location adjustment?  \n **A.** Burn at midnight inside the thermal belt to use the “warmest” night air  \n **B.** Shift firing below the thermal belt and wait until after the inversion breaks late morning, when wind/ventilation are predictable  \n **C.** Burn just before dawn while the inversion is strongest to trap smoke  \n **D.** No change; inversions reduce fire behavior everywhere equally",
+        "answer": "B – Thermal belts stay warm/dry at night under inversions, sustaining active fire; after the inversion breaks, winds/ventilation normalize and behavior is more predictable. *Distractors:* A/C keep you in unstable, smoky, or erratic conditions; D is false—effects vary by slope elevation. (Thermal belts and inversion breakdown, pp. 101–105.)\n\n---\n\n---\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "3",
+    "title": "Topography and Fuels",
+    "questions": [
+      {
+        "concept_description": "Heat Transfer in Wildland Fire",
+        "difficulty": "Easy",
+        "question_text": "You’re standing downwind of a small campfire and feel the heat rising above it. In wildland fires, which heat-transfer process most strongly spreads fire by preheating fuels, lofting embers, and moving flames into tree crowns?  \n A. Conduction  \n B. Convection  \n C. Radiation  \n D. Refraction",
+        "answer": "B – Convection. Heated air rises, carrying hot gases and embers that preheat/ignite unburned fuels and can move fire into crowns; conduction is minor in wildland fuels, and radiation matters but less than convection for spread. (Figure “How heat moves”; pp. 128–129)."
+      },
+      {
+        "concept_description": "Fuel Layers & Ladder Fuels",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: “Ladder fuels are the low limbs, shrubs, and small trees that allow a surface fire to \\_\\_\\_\\_\\_\\_ into the crowns of taller trees.”",
+        "answer": "climb. They form a vertical path so a hot surface fire can transition upward into the canopy, greatly increasing intensity and control difficulty. (Ladder fuels definition and effects; pp. 142–143)."
+      },
+      {
+        "concept_description": "Slope Effects on Spread",
+        "difficulty": "Easy",
+        "question_text": "True or False: On a calm day with no wind, a fire burning on a steep uphill slope will generally spread faster than the same fire on flat ground because the slope “presents” fuels to the flame front.",
+        "answer": "True. Slope places fuels closer to rising flames; radiation and convection preheat fuels upslope, increasing rate of spread. (Slope and preheating; pp. 118–121)."
+      },
+      {
+        "concept_description": "Slope Effects on Spread",
+        "difficulty": "Medium",
+        "question_text": "A head fire races uphill and reaches a ridge crest at noon in light winds. As it crosses onto the opposite side, what change in spread is most likely?  \n A. Accelerate further uphill  \n B. Slow and begin to back downslope  \n C. Crown immediately due to radiation  \n D. Reverse and run back down the original slope",
+        "answer": "B – Slow and begin to back downslope. At a ridge, slope reverses; the fire loses upslope preheating and typically backs on the lee side, reducing spread. (Slope reversal behavior; p. 120)."
+      },
+      {
+        "concept_description": "Fuel Moisture & Time-Lag",
+        "difficulty": "Medium",
+        "question_text": "A dry front drops relative humidity from 35% to 20% for four hours. Which fuel class will show the quickest moisture decrease during that window?  \n A. 1-hour fuels (≤¼″)  \n B. 10-hour fuels (¼–1″)  \n C. 100-hour fuels (1–3″)  \n D. 1000-hour fuels (3–8″)",
+        "answer": "A – 1-hour fuels. Smaller, finer fuels exchange moisture with the air fastest (shortest time-lag), so a brief, sharp RH drop dries them most quickly. (Dead fuel moisture exchange & time-lag; pp. 134–138)."
+      },
+      {
+        "concept_description": "Canyons & Chimneys",
+        "difficulty": "Medium",
+        "question_text": "Mid-afternoon in a narrow, V-shaped canyon, a crew proposes direct line mid-slope inside the canyon. Which specific hazard makes this location especially unsafe at that time?  \n A. Cold-air pooling that calms fire behavior  \n B. Strong upslope drafts and spotting to the opposite slope  \n C. Heat conduction through bedrock igniting fuels downslope  \n D. Late-day fog that suppresses convection",
+        "answer": "B – Strong upslope drafts and spotting. Canyons act like chimneys in heat of day, funneling winds upslope and promoting spotting across to the opposite wall—erratic, fast-moving fire behavior. (Canyon/chimney effect; pp. 122–124)."
+      },
+      {
+        "concept_description": "Canyons & Chimneys",
+        "difficulty": "Hard",
+        "question_text": "In a steep, narrow chute (a “chimney”) with dense shrubs beneath a closed canopy, a sudden upslope wind surge produces rapid crown fire spread. Which factor combination best explains this transition?  \n A. Conduction through rock \\+ heavy ground fuels  \n B. Convection funneled upslope \\+ ladder fuels  \n C. Radiation only from the flaming front  \n D. High live-fuel moisture preventing preheating",
+        "answer": "B – Convection funneled upslope \\+ ladder fuels. The chimney accelerates hot updrafts that preheat/ignite elevated fuels; abundant ladder fuels then carry flames into crowns. (Chimney effect; ladder fuels role; pp. 122–124, 142–143)."
+      },
+      {
+        "concept_description": "Fuel Layers & Ladder Fuels",
+        "difficulty": "Hard",
+        "question_text": "You have one saw team for 30 minutes before a forecast wind shift. Along your control line in mixed conifer with tight crown closure and dense understory, which single action best reduces the chance of surface fire transitioning to crown fire?  \n A. Mop up cold ash in the black  \n B. Limb up and remove ladder fuels 10–15 ft out from the line  \n C. Scratch a new line closer to the fire in the canyon bottom  \n D. Widen line only in adjacent light grass",
+        "answer": "B – Remove ladder fuels. Eliminating vertical continuity is the most direct way to prevent surface-to-crown transition under tightening canopies before winds increase. (Vertical continuity & ladder fuels; pp. 141–143)."
+      },
+      {
+        "concept_description": "Fuel Moisture & Time-Lag",
+        "difficulty": "Hard",
+        "question_text": "Which site most clearly meets a dangerous fuel-moisture threshold indicating potential for extreme burning in its dominant size class?  \n A. Site A: Cured grass; RH 30%; 1-hour fuels present  \n B. Site B: Shrubland; 10-hour fuel moisture 8%  \n C. Site C: Timber; 1000-hour fuel moisture 12%  \n D. Site D: Mixed live woody fuels; live fuel moisture high",
+        "answer": "C – Timber with 1000-hour fuel moisture 12%. Be alert for extreme conditions when 1-hr fuels coincide with RH ≤25%, 10-hr fuels ≤7%, or 1000-hr fuels ≤13%; Site C crosses a listed threshold. (Fuel-moisture thresholds; p. 139).\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "4",
+    "title": "Wildland Fire Behavior",
+    "questions": [
+      {
+        "concept_description": "Fire Environment (Weather–Topography–Fuels)",
+        "difficulty": "Easy",
+        "question_text": "On an initial size-up, you list weather, topography, and fuels. Which of these is the most variable component that can change fire behavior hour-to-hour and must be watched most closely through the shift?  \n **A.** Topography  \n **B.** Fuels  \n **C.** Weather  \n **D.** Fuel temperature alone",
+        "answer": "C – Weather. Weather (wind, temperature, relative humidity) is the most variable and strongly drives rate/direction of spread and intensity. Rebuttals: A Topography is largely fixed; B Fuels change with space/time but slower than weather; D Fuel temperature is one fuel factor, not the whole driver. pp. 148–151."
+      },
+      {
+        "concept_description": "Ignition of Wildland Fuels",
+        "difficulty": "Easy",
+        "question_text": "You’re testing ignition potential with a drip torch across several fuel beds. Under the same heat source, which fuel situation is most likely to ignite first?  \n **A.** Small, fine fuels that are loosely arranged and dry  \n **B.** Large logs stacked tightly with little air space  \n **C.** Green shrubs at peak growth stage  \n **D.** Cold, shaded fuels damp with morning dew",
+        "answer": "A – Small, fine, loose, dry fuels ignite easiest (less heat needed; air movement aids combustion). Rebuttals: B Compact, large fuels resist ignition; C Live/green fuels have high moisture; D Cold, wet fuels require extra heat to reach ignition. p. 149–151."
+      },
+      {
+        "concept_description": "Spotting & Firebrands",
+        "difficulty": "Easy",
+        "question_text": "True or False: Spotting occurs when burning material is carried ahead of the main fire and, upon landing in receptive fuels, starts new fires.",
+        "answer": "True – Spotting is the transport of firebrands (by popping, convection, wind, or gravity) that can ignite new fires ahead of the front. pp. 151–152."
+      },
+      {
+        "concept_description": "Fire Behavior Characteristics (Rate of Spread & Flame Length)",
+        "difficulty": "Medium",
+        "question_text": "While scouting a flank you observe flame lengths between 5 and 7 feet. Which operational choice best fits these conditions?  \n **A.** Direct head attack with hand tools  \n **B.** Rely on handline alone to hold the head  \n **C.** Employ engines/dozers/retardant; avoid direct head attack with hand tools  \n **D.** Tie in a hand crew directly at the head; mechanized support not needed",
+        "answer": "C – 4–8 ft flame lengths are too intense for direct head attack with hand tools; mechanized/air support is appropriate. Rebuttals: A/D Hand tools at the head are unsafe/ineffective; B Handline alone is unreliable at this intensity. p. 158–161 (flame-length interpretations)."
+      },
+      {
+        "concept_description": "Spotting & Firebrands",
+        "difficulty": "Medium",
+        "question_text": "Which situation most increases the chance of long-range spotting from an advancing fire?  \n **A.** Surface winds alone moving embers horizontally  \n **B.** Strong convective column lifting firebrands high, then winds aloft transporting them  \n **C.** Gravity rolling pinecones downhill  \n **D.** Calm day grass fire with minimal ember production",
+        "answer": "B – Convection lifts firebrands; winds aloft then carry them far ahead. Rebuttals: A Winds alone rarely move embers great distances (except firewhirls); C Gravity spreads downhill but not long-range aloft; D Grass fires usually produce little spotting. pp. 151–152, 180\\."
+      },
+      {
+        "concept_description": "Fire Environment (Weather–Topography–Fuels)",
+        "difficulty": "Medium",
+        "question_text": "It’s 1400 on a south-facing slope. Upslope winds are increasing and relative humidity is dropping. What change should you expect in fire behavior?  \n **A.** Slower spread with backing downslope as fuels cool  \n **B.** Faster upslope spread as slope, wind, and drying bring flames closer to fuels  \n **C.** No change—topography is constant so behavior won’t change  \n **D.** Slower spread but longer flames due to higher humidity",
+        "answer": "B – Slope and wind tilt flames into fuels, and lower RH/drier fuels increase rate of spread and intensity. Rebuttals: A Afternoon fuels warm/dry; C Weather/fuels vary despite fixed terrain; D RH is dropping, not rising. pp. 148–158."
+      },
+      {
+        "concept_description": "Fire Environment Indicators of Extreme Behavior",
+        "difficulty": "Hard",
+        "question_text": "You first see a tall, well-developed smoke column capped with a very white cloud; later the top is sheared flat. Which assessment is most accurate and safety-critical?  \n **A.** Leaning column means purely wind-driven—continue direct head attack  \n **B.** Sheared top signals stable air and lower spotting risk  \n **C.** A capped, towering column signals intense, plume-dominated potential and possible downbursts; the sheared top indicates strong winds aloft and long-range spotting—reassess tactics  \n **D.** Column appearance is cosmetic; ground-level flame color matters more",
+        "answer": "C – A well-developed, white-capped column indicates intense burning and downburst risk; shear shows strong upper-level winds that can drive long-range spotting. Rebuttals: A Direct head attack can be dangerous; B Shear increases, not lowers, spotting risk; D Column behavior is a primary indicator. pp. 162–171, 172–173."
+      },
+      {
+        "concept_description": "Fire Behavior Characteristics (Rate of Spread & Flame Length)",
+        "difficulty": "Hard",
+        "question_text": "A fire’s rate of spread is estimated at 3 chains per hour. One chain \\= 66 ft. Your dozer line is 300 ft ahead on flat, uniform fuels. About how long before the head reaches the line (assume no change in conditions)?",
+        "answer": "1.5 hours (≈1 hr 31 min). Explanation: Convert 3 chains/hr × 66 ft/chain \\= 198 ft/hr. Time \\= distance / speed \\= 300 ft ÷ 198 ft/hr ≈ 1.52 hr. Operationally, this short window argues for alternate anchor/line placement or flanking. (Rate units & chain definition). p. 153\\."
+      },
+      {
+        "concept_description": "Fire Environment Indicators of Extreme Behavior",
+        "difficulty": "Hard",
+        "question_text": "Which setting is MOST likely to transition from a surface fire to active crowning?  \n **A.** Spring green-up, wide crown spacing, calm winds, no ladder fuels  \n **B.** Hot, dry afternoon; close crown spacing (\\<20 ft) with ladder fuels; strong crown-level winds (\\~20 mph) on a steep slope  \n **C.** Moist fuels in shade; inversion holding; light downslope winds  \n **D.** Light flashy grasses in a meadow with minimal overstory",
+        "answer": "B – Low fuel moisture, tight crowns, ladder fuels, strong winds, and slope collectively favor crown ignition and crown-to-crown heat transfer. Rebuttals: A High live moisture and spacing resist crowning; C Stable, moist conditions suppress vertical development; D Grasses tend to produce little crowning. pp. 163–169, 4-46–4-49 (crown fire factors).\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "5",
+    "title": "Fireline Construction",
+    "questions": [
+      {
+        "concept_description": "Heat Transfer & Fireline Escape Risks",
+        "difficulty": "Easy",
+        "question_text": "On initial attack, your crew asks which heat transfer most drives wildland fire spread so they can size the line appropriately. Which is it?  \n **A.** Radiant heat from flames to nearby fuels.  \n **B.** Convective heat carried by superheated air currents.  \n **C.** Conduction through soil and rock.  \n **D.** Solar heating of fuels ahead of the fire.",
+        "answer": "B – convective heat. Convective currents move heat and loft embers over lines; radiant heat falls off quickly with distance; conduction is negligible in spread; solar preheats but isn’t the principal spread mechanism. Distractors: A—limited range; C—too slow; D—not the main driver of spread. (pp. 189–190)\n\n---"
+      },
+      {
+        "concept_description": "Fireline Types & Anchor Points",
+        "difficulty": "Easy",
+        "question_text": "You’re told to start line from a barrier (road/creek) to avoid being flanked and to tie into other control features. That starting location is called an \\_\\_\\_\\_\\_\\_.",
+        "answer": "anchor point. It’s a barrier used to begin line so fire can’t “fish-hook” around and outflank crews; always tie lines to barriers/control lines. (p. 194\\)\n\n---"
+      },
+      {
+        "concept_description": "Parts of a Wildland Fire",
+        "difficulty": "Easy",
+        "question_text": "True or False: A “slopover” is a burning area outside the main perimeter with unburned fuel separating it from the main fire (i.e., a spot fire).",
+        "answer": "False – a slopover is when fire crosses the control line adjacent to the main fire with no unburned fuel between; spot fires are separate burns outside the perimeter. (p. 192\\)\n\n---"
+      },
+      {
+        "concept_description": "Fireline Types & Anchor Points",
+        "difficulty": "Medium",
+        "question_text": "In medium brush, your engine lays a foam wet line to slow the flame front. What must you do to make this a final control line?  \n **A.** Leave it; wet lines are acceptable final lines in most fuels.  \n **B.** Follow up within two hours and cut/secure a line to mineral soil.  \n **C.** Widen the wet line by doubling water application only.  \n **D.** Convert it to a retardant line with an airtanker.",
+        "answer": "B – Follow up and cut to mineral soil. Wet/retardant lines are temporary; final control lines go to mineral soil and need prompt ground action. A—unsafe assumption; C—water alone won’t hold; D—retardant still needs ground support. (pp. 192–194, 5-10–5-11)\n\n---"
+      },
+      {
+        "concept_description": "Fireline Width: Rules & Drivers",
+        "difficulty": "Medium",
+        "question_text": "Which single factor below does NOT determine how wide to make a fireline?  \n **A.** Long-range spotting potential over a mile.  \n **B.** Fuel height/type and density.  \n **C.** Slope and whether wind is aligned with slope.  \n **D.** Anticipated flame length and fire intensity.",
+        "answer": "A – Long-range spotting. Width is dictated by fuels, topography, and expected behavior; long-range spotting is common but doesn’t control line width. B/C/D—each directly affects necessary width. (pp. 189–191, 195–197)\n\n---"
+      },
+      {
+        "concept_description": "Parts of a Wildland Fire",
+        "difficulty": "Medium",
+        "question_text": "Brief scenario: Afternoon upslope winds push the fastest-moving edge uphill. Standing at the origin facing that edge, which side of the fire is the “left flank”?  \n **A.** The slower edge downwind near the origin.  \n **B.** The edge to your left as you look toward the head.  \n **C.** The edge to your right as you look toward the head.  \n **D.** The burned perimeter behind the head.",
+        "answer": "B – The edge to your left when looking from origin/base toward the head. A—heel/rear; C—right flank; D—perimeter/“fire edge,” not a flank. (pp. 191–192)\n\n---"
+      },
+      {
+        "concept_description": "Fireline Width: Rules & Drivers",
+        "difficulty": "Hard",
+        "question_text": "You must place a control line on the head of a brush fire where the predominant fuel height is 5 ft and wind is aligned with a steep upslope. Using the general rule and the guidance to double width when slope and wind are aligned, what minimum line width should you plan for?",
+        "answer": "15 ft minimum. Formulae: width ≥ 1.5 × fuel height; if slope & wind are aligned, double the width. Working: 1.5 × 5 ft \\= 7.5 ft; doubled ⇒ 15 ft. At the head, wider lines are prudent due to greater intensity. (pp. 195–197)\n\n---"
+      },
+      {
+        "concept_description": "Minimum-Impact Tactics & Legal Constraints",
+        "difficulty": "Hard",
+        "question_text": "A dozer line is proposed along a creek bordering a known archaeological site that hosts a threatened amphibian. Fire behavior is moderate. Which option best meets suppression needs while complying with law and M.I.S.T.?  \n **A.** Push the dozer through quickly to keep the fire small; rehab later.  \n **B.** Move artifacts out of the way and continue the dozer line along the creek.  \n **C.** Shift to natural barriers (road/creek), use cold-trailing/wet line/sprinklers, and consult/notify resource advisors to avoid the site.  \n **D.** Fell nearby snags in case an endangered owl might use them later, then proceed with dozer line.",
+        "answer": "C – Use barriers and low-impact tactics with coordination. Antiquities/ARPA/ESA restrict disturbing cultural resources and listed species/habitat; M.I.S.T. favors barriers, wet lines, cold-trailing, minimal cutting. A—ignores impact; B—illegal disturbance; D—unnecessary habitat harm. (pp. 211–216)\n\n---"
+      },
+      {
+        "concept_description": "Heat Transfer & Fireline Escape Risks",
+        "difficulty": "Hard",
+        "question_text": "You’re mid-slope in a narrow canyon with heavy overhanging brush above your handline. Active convection is lifting embers and heating fuels beyond the line. What is the most effective immediate mitigation?  \n **A.** Rely on radiant heat shields and keep the line narrow.  \n **B.** Switch to a wet line only; water will stop convective crossing.  \n **C.** Remove overhanging/aerial fuels and widen the line; add trenching for potential rolling material.  \n **D.** Focus solely on spotting \\>1 mile away; local line width won’t matter.",
+        "answer": "C – Widen and remove aerial fuels; add trench. Convective heat predominates in spread and can loft embers over narrow lines; removing aerial fuels and widening reduce escape; trenching catches rolling material. A—radiant shields don’t stop convection; B—wet lines are temporary; D—spotting doesn’t dictate width. (pp. 189–191, 196–197, 209\\)\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "6",
+    "title": "Use of Water and Fire",
+    "questions": [
+      {
+        "concept_description": "Water Application & Stream Selection",
+        "difficulty": "Easy",
+        "question_text": "A wind-driven grass fire is running along a roadside. You have limited water and a combination nozzle. To cool fuel effectively while conserving water, which stream/pattern should you use first at the flame–fuel contact?  \n A. A long straight-stream from a distance to “knock it down”  \n B. A tight spray directed at the base of the flames along the edge  \n C. A wide fog to create a heat shield while advancing  \n D. Treat the wet line you create as your final control line",
+        "answer": "B – a tight spray at the base. Sprays cool larger areas with less water and target the flame base in light fuels; straight-streams are less efficient, fog is mainly for heat protection in structural work, and a wet line is not a final control line. (pp. 221–223)"
+      },
+      {
+        "concept_description": "Class A Foam – Handling & Safety",
+        "difficulty": "Easy",
+        "question_text": "True or False — When handling Class A foam concentrate, you should wear goggles and waterproof gloves, avoid leather boots, and follow the manufacturer’s instructions.",
+        "answer": "True – PPE (goggles, waterproof gloves, disposable coveralls if possible) is recommended; leather boots can get slippery if concentrate spills. Training and manufacturer guidance are required. (p. 226\\)"
+      },
+      {
+        "concept_description": "Using Fire – Burning-Out vs. Backfiring",
+        "difficulty": "Easy",
+        "question_text": "Which statement best distinguishes burning-out from backfiring in wildland operations?  \n A. Burning-out removes fuels between the fire edge and the control line; backfiring is timed so the main fire draws it in  \n B. Backfiring is used to clean up line only; burning-out turns a high-intensity front  \n C. Backfiring is started without command approval; burning-out always requires airtankers  \n D. Burning-out is lit far ahead of the main fire; backfiring is only along the black",
+        "answer": "A – burning-out cleans fuels between edge and line; backfiring is a high-level, timed tactic where the main fire draws the backfire. (pp. 234–236)"
+      },
+      {
+        "concept_description": "Water Management Tactics",
+        "difficulty": "Medium",
+        "question_text": "You’re mopping up knee-high grass with limited water. What is the most water-efficient approach?  \n A. Stay back and use straight-stream for reach the whole time  \n B. Work close with a fine spray at the base, apply just enough, shut off between specific targets, and check for smokes  \n C. Soak all adjacent fuels heavily to prevent any reignition  \n D. Lay a wet line and consider it the final control line",
+        "answer": "B – fine spray at the base, short bursts, and shutoff between targets conserve water while cooling fuel; soaking wastes water, straight-stream is less efficient, and wet lines aren’t final control lines. (pp. 221–223)"
+      },
+      {
+        "concept_description": "Class A Foam – Type & Nozzle Choice",
+        "difficulty": "Medium",
+        "question_text": "A wood-sided shed will be exposed soon. To coat vertical surfaces so the mix clings and releases moisture slowly, what should you apply?  \n A. Dry foam with an aspirating nozzle  \n B. Clear “solution” foam for mop-up through a conventional nozzle  \n C. Plain water in fog for heat protection only  \n D. Straight-stream water for maximum reach",
+        "answer": "A – dry foam (shaving-cream-like) clings to vertical surfaces and protects exposures; “solution” is for mop-up, fog shields heat but doesn’t cling, and straight-stream doesn’t provide insulating bubbles. (p. 228; pp. 230–231)"
+      },
+      {
+        "concept_description": "Environmental Constraints on Foam",
+        "difficulty": "Medium",
+        "question_text": "Your line is only 60 ft from a creek. You planned a foam wet line. What’s the compliant adjustment?  \n A. Use foam anyway but at 0.1%  \n B. Maintain at least a 100-ft buffer from high-water marks and switch to plain water/wet line near the creek  \n C. Switch to Class B foam; it’s safer for waterways  \n D. Proceed; Class A foam is biodegradable so buffer isn’t needed",
+        "answer": "B – avoid direct foam application to water and keep a \\~100-ft buffer; biodegradability does not remove buffer requirements. (p. 226\\)"
+      },
+      {
+        "concept_description": "Class A Foam – Proportioning & Use",
+        "difficulty": "Hard",
+        "question_text": "Numeric calculation — Your engine flows 60 gpm of foam solution. For 10 minutes at 0.5% and the next 10 minutes at 0.2%, how many gallons of concentrate are consumed in total?",
+        "answer": "4.2 gallons – Explanation: Volume segments: 60 gpm × 10 min \\= 600 gal; 600 × 0.005 \\= 3.0 gal. Next: 60 × 10 \\= 600 gal; 600 × 0.002 \\= 1.2 gal. Total \\= 3.0 \\+ 1.2 \\= 4.2 gal. Formula: concentrate \\= solution volume × mix ratio. Note: automatic systems proportion on the discharge side. (pp. 225, 227, 229\\)"
+      },
+      {
+        "concept_description": "Firing Operations – Patterns & Watch-Outs",
+        "difficulty": "Hard",
+        "question_text": "A division must secure a saddle above a narrow canyon with shifting winds and nearby thunderstorms. Which plan best aligns with firing rules and watch-outs?  \n A. Begin aggressive head firing from mid-slope to gain width quickly before the storm  \n B. Anchor, brief, and fire short sections; burn both sides of the saddle from the tops toward the middle; avoid mid-slope lighting; be ready to delay/adjust for wind shifts and coordinate holding resources  \n C. Use a ring fire to create an island without anchoring; speed outweighs control here  \n D. Start flanking fire in the canyon bottom so indrafts pull the fire up toward the saddle",
+        "answer": "B – top-down simultaneous firing in saddles, anchored, short sections, and coordination match rules; mid-slope, ring firing without anchor, or canyon-bottom starts are watch-outs with higher escape/spotting risk. (pp. 237–241)"
+      },
+      {
+        "concept_description": "Gels & Wetting Agents – Mixing, Targeting, Rehydration",
+        "difficulty": "Hard",
+        "question_text": "A residence with stucco siding and a fire-resistant roof may be exposed within 24 hours. You have gel concentrate stored for a year. What’s the best protection plan?  \n A. Apply 1% gel to the whole house now; storage condition is irrelevant  \n B. Agitate the concentrate container, then apply \\~3% gel to vulnerable points (windows/vents) and adjacent fuels; plan to lightly mist to rehydrate if needed  \n C. Use Class A foam at 5% to maximize duration on walls  \n D. Skip gels entirely; they’re expensive and no rehydration is possible",
+        "answer": "B – structure protection uses \\~3% gel; treat vulnerable areas and nearby fuels (not always whole structure), agitate long-stored concentrate, and rehydrate gently as it dries. Ratios above 1% for Class A foam aren’t advised; gels can hold up to \\~24 hours. (pp. 230–233) \n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "7",
+    "title": "Use of Firefighting Resources",
+    "questions": [
+      {
+        "concept_description": "Engine Companies & ICS Engine Types",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank and then list any two tasks: “The engine company is the most \\_\\_\\_\\_\\_\\_ element in the fire service.” Name two engine-company tasks commonly used on wildland incidents near roads.",
+        "answer": "versatile – examples: direct attack and hotspotting (also mopping-up, supplying hose lays, structure protection, medical aid). Explanation: Engines carry people, water, hose, tools, and often arrive first; they perform direct attack, hotspotting, mop-up, supply, and protection roles. (pp. 248–250)"
+      },
+      {
+        "concept_description": "Mobile Attack (Pump-and-Roll Tactics)",
+        "difficulty": "Easy",
+        "question_text": "True or False: A mobile attack is appropriate in light grass or scattered brush where the engine can maneuver and pump while rolling.",
+        "answer": "True – Explanation: Mobile attack is a direct, fast edge attack used in light fuels on workable terrain; it requires “pump-and-roll” and adequate clearance/flexibility. (pp. 250–253)"
+      },
+      {
+        "concept_description": "Hose Lays & Accessories",
+        "difficulty": "Easy",
+        "question_text": "Which tool is used to stop the flow in a pressurized hose line during a wildland hose lay?  \n A. Spanner wrench  \n B. Increaser  \n C. Hose clamp  \n D. Siamese/Wye",
+        "answer": "C – hose clamp. Explanation: A hose clamp is designed to stop flow in a charged line; spanners tighten couplings, increasers change diameter, and wyes split one line into two. (pp. 253–255)"
+      },
+      {
+        "concept_description": "Mobile Attack (Pump-and-Roll Tactics)",
+        "difficulty": "Medium",
+        "question_text": "You have light grass along a road and two engines. The best tactic is for the lead engine to knock down heat while a second engine follows to secure hotspots. Which mobile method is this?  \n A. Flanking  \n B. Tandem flanking  \n C. Pincer  \n D. Envelopment",
+        "answer": "B – tandem flanking. Explanation: Tandem \\= a flanking attack where a trailing engine secures hotspots so the lead can move faster. A: single flanking, C: both flanks from an anchor, D: multiple points simultaneously. (pp. 250–253)"
+      },
+      {
+        "concept_description": "Hydraulics for Hose Operations",
+        "difficulty": "Medium",
+        "question_text": "A pump supplies 70 psi at the engine; the nozzle is 50 ft uphill. Ignoring friction, what’s the approximate nozzle pressure?",
+        "answer": "\\~48.5 psi – Explanation: Head loss ≈ 0.43 psi/ft × 50 ft \\= 21.5 psi. 70 − 21.5 \\= 48.5 psi. Formula: ΔP ≈ 0.43 psi/ft of elevation gain. (pp. 255–258)"
+      },
+      {
+        "concept_description": "Hose Lays & Accessories",
+        "difficulty": "Medium",
+        "question_text": "For a progressive hose lay on a brush fire, which practice is best?  \n A. Use 1″ trunk line; place wyes every 100 ft; keep line dry until finished.  \n B. Use 1½″ trunk line with 1″ laterals; place tees/wyes about every 300 ft; keep the line wet.  \n C. Use only reel line; durability compensates for low volume.  \n D. Lay hose across sharp rocks to shorten route; charge when done.",
+        "answer": "B – 1½″ trunk, 1″ laterals, tees/wyes \\~300 ft, wet lay. Explanation: Progressive lays are built “wet,” with branch connections roughly every 300 ft; reel line lacks needed volume. (pp. 259–262)"
+      },
+      {
+        "concept_description": "Hydraulics for Hose Operations",
+        "difficulty": "Hard",
+        "question_text": "Numeric—compute required pump discharge pressure (PDP). Setup: 300 ft of 1½″ hose to a straight-stream nozzle (needs 50 psi), one gated wye in the lay (+5 psi loss), and the nozzle is 50 ft uphill. Use rule-of-thumb friction loss −2 psi/100 ft for 1½″ hose and 0.43 psi/ft elevation.",
+        "answer": "≈83 psi – Explanation (steps): Friction ≈ 3×(2) \\= 6 psi; elevation loss ≈ 50×0.43 \\= 21.5 psi; fittings ≈ 5 psi; nozzle 50 psi. PDP ≈ 50 \\+ 6 \\+ 21.5 \\+ 5 \\= 82.5 psi ≈ 83 psi. (pp. 255–258)"
+      },
+      {
+        "concept_description": "Air Operations with Aircraft",
+        "difficulty": "Hard",
+        "question_text": "Which helispot/refill setup is safest and correct?  \n A. 12×12 ft pad; engine 50 ft from pad; wet the pad during lift-off for dust.  \n B. 20×20 ft pad cleared of debris; engine ≥100 ft away; gated wye with a 200-ft protection line; don’t wet during takeoff/landing; only helitack refills.  \n C. Approach clearance 50 ft; departure 150 ft; any crew may refill.  \n D. Park engine upwind within 30 ft for faster hookups.",
+        "answer": "B – Explanation: Use a \\~20×20 ft cleared pad, ≥100 ft engine setback, proper lines and extinguisher, manage dust without wetting during ops, and only helitack fills tanks; ensure ample approach (≥100 ft) and departure (\\~300 ft) clearance. (pp. 274–276)"
+      },
+      {
+        "concept_description": "Air Operations with Aircraft",
+        "difficulty": "Hard",
+        "question_text": "A fire in steep terrain has 25-mph winds, tall snags, and dense smoke. Airtankers are en route. What’s the best decision?  \n A. Order more airtankers to overcome wind.  \n B. Fly higher to widen coverage.  \n C. Reassign/release aircraft if conditions exceed safe/effective limits; coordinate ground tactics with air attack.  \n D. Use aircraft alone without ground follow-up.",
+        "answer": "C – Explanation: Air ops are limited by steep terrain, winds \\>20 mph, snags, and visibility; aircraft should support ground forces and be released when not effective/safe. (pp. 265–266, 277–279) \n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "8",
+    "title": "Initial Attack: Strategies and Tactics",
+    "questions": [
+      {
+        "concept_description": "Pre-Response Readiness & En-Route Assessment",
+        "difficulty": "Easy",
+        "question_text": "You’re dispatched to a vegetation fire in an unfamiliar area. Which specific piece of information from dispatch most directly authorizes you to respond on an out-of-county assignment and should be recorded along with location, access, and hazards?  \n **A.** The caller’s name and phone number  \n **B.** Order and request numbers for the assignment  \n **C.** The forecasted high temperature for the day  \n **D.** Your engine’s last service date",
+        "answer": "B – Order and request numbers. These numbers are your authority to respond and follow you through the assignment; record them along with type, location, access, other resources, and hazards. (pp. 299–303)\n\n---"
+      },
+      {
+        "concept_description": "Hotspotting",
+        "difficulty": "Easy",
+        "question_text": "True or False: Hotspotting is normally done from a secured anchor point behind the main fire.",
+        "answer": "False – Hotspotting often occurs ahead of the fire at hot, fast-moving fingers, typically without a secure anchor; it’s used to temporarily check spread until lines are constructed and requires extreme caution. (p. 320\\)\n\n---"
+      },
+      {
+        "concept_description": "Size-Up & Reporting Conditions",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: Size-up is a \\_\\_\\_\\_\\_\\_ process that ends only when the fire is controlled, guiding decision-making and initial reports to dispatch.",
+        "answer": "continuous – Size-up starts before arrival, continues throughout operations, and feeds brief, meaningful updates to dispatch to shape strategy and resource ordering. (pp. 304–310)\n\n---"
+      },
+      {
+        "concept_description": "Initial Attack Strategy & Tactics (Offensive/Defensive; Direct/Parallel/Indirect)",
+        "difficulty": "Medium",
+        "question_text": "Flames on the head fire are consistently over 4 ft and heat makes work on the edge unsafe. Which initial approach best fits this situation?  \n **A.** Direct attack along the head with hand tools only  \n **B.** Parallel attack within 2 ft of the edge, no burn-out  \n **C.** Indirect attack using favorable terrain or barriers, with planned burn-out  \n **D.** Envelopment from multiple points using only water streams",
+        "answer": "C – Indirect attack is used when intensity makes direct action unsafe; place line on advantageous ground and burn out under suitable conditions. A: Direct is unsafe at this intensity. B: Parallel requires immediate burn-out and closer work than conditions allow. D: Water alone won’t secure perimeter under high intensity. (pp. 311–317)\n\n---"
+      },
+      {
+        "concept_description": "Mop-Up & Patrol",
+        "difficulty": "Medium",
+        "question_text": "During mop-up you uncover a smoldering stump hole near the control line on a slope. What is the best sequence?  \n **A.** Flood with a straight stream and move on  \n **B.** Cover with dirt and mark for later  \n **C.** Expose and dig out roots crossing under the line, apply fine spray, stir, then spray again; secure so nothing can roll  \n **D.** Leave it to cool naturally; patrol will catch it",
+        "answer": "C – Dig out roots that can carry heat under the line; use “spray–stir–spray,” and secure materials against rolling to prevent rekindle or slopover. A/B: Water or dirt alone can hide heat. D: Delaying risks escape. (pp. 321–328, 341–345 style topics within section)\n\n---"
+      },
+      {
+        "concept_description": "Pre-Response Readiness & En-Route Assessment",
+        "difficulty": "Medium",
+        "question_text": "While en route you see a smoke column rising vertically but bending over at the top downwind. What should you infer for near-term fire behavior at ground level?  \n **A.** Strong surface winds will persist; plan for wind-driven spread now  \n **B.** Little surface wind exists now, but winds aloft may surface later—watch for a change  \n **C.** It’s a small campfire; minimal spread expected  \n **D.** It’s likely a diesel equipment exhaust plume, not a wildland fire",
+        "answer": "B – A column rising then bending indicates light surface winds with stronger winds aloft that may mix down; anticipate a shift and adjust tactics and lookouts accordingly. A/C/D: These misread the column characteristics described for wildland smoke. (p. 303\\)\n\n---"
+      },
+      {
+        "concept_description": "Size-Up & Reporting Conditions",
+        "difficulty": "Hard",
+        "question_text": "Numeric calculation. You time the head of a fire moving 1,200 ft in 30 minutes. Classify the rate of spread and state the implication for tactics. Show your work.",
+        "answer": "Extreme – 2,400 ft/hr. Work: Rate \\= distance ÷ time \\= 1,200 ft ÷ 0.5 hr \\= 2,400 ft/hr. Categories: Low \\<100 ft/hr; Moderate 100–400; High 400–1,800; Extreme \\>1,800. Implication: Conditions favor indirect/defensive posture at the head; direct action limited to flanks/heel where intensity allows. (p. 305\\)\n\n---"
+      },
+      {
+        "concept_description": "Initial Attack Strategy & Tactics (Offensive/Defensive; Direct/Parallel/Indirect)",
+        "difficulty": "Hard",
+        "question_text": "A wind-pushed grass fire is developing a fast-moving head toward a road with homes beyond. Resources are en route. Which combined plan is most appropriate now?  \n **A.** Direct on the head only; ignore flanks until later  \n **B.** Defensive structure prep only; no perimeter action  \n **C.** Indirect line across the head tied to the road with a timed burn-out, while using direct attack on both flanks  \n **D.** Parallel attack all around with no burn-out",
+        "answer": "C – Use an indirect line at the head (road/backing fire) while flanking directly where in-drafts are favorable; this matches intensity and values at risk. A: Unsafe at the head. B: Ignores perimeter control. D: Parallel without burn-out won’t hold. (pp. 317–336; example described)\n\n---"
+      },
+      {
+        "concept_description": "Mop-Up & Patrol",
+        "difficulty": "Hard",
+        "question_text": "Numeric calculation. Your perimeter sketch shows a roughly rectangular black: 210 ft by 628 ft. What acreage do you report initially to dispatch, and why report it that way? Show your work.",
+        "answer": "\\~3.0 acres, conservatively. Work: Area \\= 210 ft × 628 ft \\= 131,880 ft². Acres \\= 131,880 ÷ 43,560 ≈ 3.03 ac. Round to \\~3 ac and avoid overstatement; accurate but conservative estimates guide resources and public info. (pp. 307–310) \n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "9",
+    "title": "Wildland/Urban Firefighting: Strategies and Tactics",
+    "questions": [
+      {
+        "concept_description": "Wildland/Urban (WUI) Conditions",
+        "difficulty": "Easy",
+        "question_text": "On patrol you find homes scattered throughout continuous chaparral with no clear line between houses and brush. What WUI condition best describes this area?  \n A. Interface  \n B. Intermix  \n C. Occluded  \n D. Rural",
+        "answer": "B – Intermix. Intermix \\= scattered structures within continuous wildland fuels, no clear line of demarcation. Why not A: Interface has a clear line. Why not C: Occluded is a wildland “island” in a city. Why not D: Rural \\= small clusters with miles between. Refs: pp. 9-6–9-7."
+      },
+      {
+        "concept_description": "Evacuation Authority & Timing",
+        "difficulty": "Easy",
+        "question_text": "True or False — Fire crews can recommend evacuation, but only law enforcement has the authority to make people leave against their will.",
+        "answer": "True – Fire personnel may suggest; moving people against their will is law enforcement’s responsibility. Plan and coordinate early with law enforcement. Refs: pp. 9-34–9-35."
+      },
+      {
+        "concept_description": "Mobility & Water Use in WUI",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: In fast, wind-driven WUI operations with many homes at risk, crews should remain \\_\\_\\_\\_\\_\\_ and avoid connecting to a hydrant except for rapid refills.",
+        "answer": "mobile. Staying mobile lets you reposition as conditions change; do not “anchor” to a hydrant—refill rapidly and keep hose lays short. Refs: pp. 9-50–9-51."
+      },
+      {
+        "concept_description": "Structure Triage Categories",
+        "difficulty": "Medium",
+        "question_text": "A narrow road has no safety zone. A flame front is \\~10 minutes out. You can quickly move a woodpile away and apply a light foam coat; residents are present. Which triage decision fits best?  \n A. Defensible  \n B. Defensible with intervention  \n C. Prepare and Go\\!  \n D. Rescue/drive by",
+        "answer": "C – Prepare and Go\\! No safety zone, but simple measures can help; advise evacuation, then withdraw to a safety zone and return after passage. Why not A/B: those require an adequate safety zone. Why not D: used when it cannot be safely defended at all. Refs: pp. 9-23–9-24."
+      },
+      {
+        "concept_description": "Selecting Structure Protection Tactics",
+        "difficulty": "Medium",
+        "question_text": "Wind is driving spot fires ahead of the front. You’re leap-frogging from house to house, perimeter control is secondary, and you must stay mobile. Which tactic matches?  \n A. Anchor and Hold  \n B. Bump and Run  \n C. Prep and Defend  \n D. Fire Front Following",
+        "answer": "B – Bump and Run. Move ahead in the spotting zone, protect structures from flame/radiant heat, stay mobile. Why not A: relies on fixed water to stop spread. Why not C: implies time and a safety zone to stay. Why not D: follows after the front passes. Refs: pp. 9-25–9-27."
+      },
+      {
+        "concept_description": "Homeowner Coordination",
+        "difficulty": "Medium",
+        "question_text": "Multiple-select — Which actions should you tell homeowners to take that directly reduce ignition risk?  \n A. Leave electricity on unless you’re attacking an interior fire  \n B. Prop the garage door open for a quick exit  \n C. Shut off gas at the meter or LPG tank  \n D. Turn on the porch light and leave exterior doors unlocked but closed",
+        "answer": "A,C,D – These reduce ignition pathways and help responders. B is wrong: the garage door should be closed. Refs: pp. 9-55–9-56."
+      },
+      {
+        "concept_description": "Resource Allocation in the Action Plan",
+        "difficulty": "Hard",
+        "question_text": "Numeric — Eight threatened homes sit as four pairs of houses with \\~40 ft between each pair. Using the rule “one engine per structure, plus one extra per four for patrol,” and noting that one engine may protect two structures ≤50 ft apart, how many engines do you assign initially?",
+        "answer": "6 engines. Working: Step 1 (pairing): four close pairs → 4 engines (each may cover 2 structures ≤50 ft). Step 2 (patrol): add one engine per four structures → \\+2. Total \\= 4 \\+ 2 \\= 6 engines. Refs: p. 9-40."
+      },
+      {
+        "concept_description": "When to Move On (Triage Reassessment)",
+        "difficulty": "Hard",
+        "question_text": "You’re defending a house when roof spot fires reignite faster than you can knock them down, your water is running low, winds are increasing, and your escape route may soon be compromised. What’s the correct action?  \n A. Continue interior attack until the tank is empty  \n B. Tie into a hydrant and hold your position  \n C. Move to a safety zone and report conditions; return later if feasible  \n D. Transition to Anchor and Hold on this structure",
+        "answer": "C – These are classic “move on” cues: uncontrollable spot fire rate, inadequate water, and threatened egress. Do not anchor to a hydrant in mobile WUI ops. Refs: pp. 9-33, 9-50–9-51."
+      },
+      {
+        "concept_description": "Attack Mode Selection",
+        "difficulty": "Hard",
+        "question_text": "Prediction shows you can knock down part of the main fire with indirect line, but some homes will still be threatened; you plan to extend control lines from defended anchors. Which attack mode aligns with this plan?  \n A. Defensive attack  \n B. Offensive attack  \n C. Combination attack  \n D. Prep and Go",
+        "answer": "C – Combination attack: control part of the main fire while protecting structures and extending perimeter control from structure-defense anchor points. Why not A: purely structure-saving with main fire uncontrollable. Why not B: main fire fully controllable before threats. D is a single tactic, not an overall mode. Refs: p. 9-40."
+      },
+      {
+        "concept_description": "Size-Up & Special Conditions",
+        "difficulty": "Easy",
+        "question_text": "In a WUI incident where the number of homes at risk exceeds available engines, what two immediate operational implications should drive your initial strategy?  \n A. Tie to hydrants and commit to perimeter control  \n B. Remain mobile and start structure triage  \n C. Focus on interior attacks on involved houses  \n D. Stage and wait for more resources",
+        "answer": "B – When threatened homes exceed engines, you must stay mobile and triage; you won’t protect them all. Why not A: hydrant tie-in reduces mobility. Why not C: structure protection usually excludes interior attack. Why not D: delaying risks loss. Refs: p. 9-8. \n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "10",
+    "title": "Incident Command System",
+    "questions": [
+      {
+        "concept_description": "ICS Organization & Roles",
+        "difficulty": "Easy",
+        "question_text": "On a growing wildland incident, which ICS section is responsible for preparing the written Incident Action Plan (IAP) for each operational period and tracking resource/situation status?  \n **A.** Operations Section  \n **B.** Planning Section  \n **C.** Logistics Section  \n **D.** Finance/Administration Section",
+        "answer": "B – Planning Section. The Planning Section prepares the IAP, tracks resource and situation status, and anticipates future needs. Distractors: A manages tactics, not plan prep; C provides support/services; D tracks costs and procurement. (Section II & IV, pp. 389–403)."
+      },
+      {
+        "concept_description": "Incident Facilities",
+        "difficulty": "Easy",
+        "question_text": "True or False: A Staging Area is part of the Operations Section and is used to hold resources that are checked in and ready for rapid tactical assignment under the Operations Section Chief.",
+        "answer": "True – Staging Areas are within Operations, managed by a Staging Area Manager, and position ready resources for deployment. (Section III, pp. 395–396, 399)."
+      },
+      {
+        "concept_description": "ICS Core Features & Principles",
+        "difficulty": "Easy",
+        "question_text": "Which statement best reflects ICS span of control?  \n **A.** One supervisor should manage exactly five resources.  \n **B.** One supervisor should manage no more than three resources.  \n **C.** Typical effective range is three to seven; one-to-five is recommended.  \n **D.** Any number is acceptable if the supervisor is experienced.",
+        "answer": "C – ICS teaches a typical range of 3–7 with a recommended 1–5 to maintain safe, effective supervision. A/B are too rigid; D ignores proven limits. (Section I & II, pp. 380–381, 389–391)."
+      },
+      {
+        "concept_description": "Resource Typing & Status",
+        "difficulty": "Medium",
+        "question_text": "(Multiple-choice scenario) You need five engines of the same type under one leader with common comms to do structure protection along one road segment. What should you request?  \n **A.** A Task Force  \n **B.** A Strike Team  \n **C.** Five Single Resources  \n **D.** A Division",
+        "answer": "B – A Strike Team is a set number of the same kind/type with a leader and common comms. A is a mixed set; C lacks unified leadership/comms; D is a geographic org unit, not a resource order. (Section I & IV, pp. 10-10 to 10-11, 401–402)."
+      },
+      {
+        "concept_description": "Unified Command",
+        "difficulty": "Medium",
+        "question_text": "Fill in the blank: Under a Unified Command, there is one \\_\\_\\_\\_\\_\\_ who directs implementation of the Incident Action Plan for all agencies involved.",
+        "answer": "Operations Section Chief. Unified Command sets common objectives; one Operations Section Chief executes the plan to integrate tactics. (Section I & VI, pp. 380–381, 407–409)."
+      },
+      {
+        "concept_description": "Resource Typing & Status",
+        "difficulty": "Medium",
+        "question_text": "Short response: An engine is (1) pumping a hose lay on Division A, then (2) moved to Staging after mop-up, then (3) parked for a flat tire. What is its status at each step?",
+        "answer": "(1) Assigned → (2) Available → (3) Out-of-service. Assigned \\= committed to a task; Available \\= ready in Staging; Out-of-service \\= not deployable due to mechanical/personnel limits. (Section I & IV, pp. 10-10 to 10-11, 401–402, 404–405)."
+      },
+      {
+        "concept_description": "ICS Organization & Roles",
+        "difficulty": "Hard",
+        "question_text": "(Decision MCQ) Your fire now spans two flanks, needs structure protection, and has six geographic work areas plus a medical group. Division/Group Supervisors would exceed safe span of control if they report directly to Operations. What is the best organizational adjustment?  \n **A.** Keep current setup and add more divisions under Operations directly  \n **B.** Create two Branches (e.g., North/South) and place divisions/groups under them  \n **C.** Replace divisions with one large Group to simplify supervision  \n **D.** Move Staging to Logistics to reduce reporting to Operations",
+        "answer": "B – Establish Branches to maintain span of control and organize multiple divisions/groups logically. A exceeds span; C removes needed geographic control; D misunderstands Staging (it remains in Operations). (Section II, pp. 387–391)."
+      },
+      {
+        "concept_description": "ICS Core Features & Principles",
+        "difficulty": "Hard",
+        "question_text": "Numeric calculation: Operations must supervise 18 divisions/groups. To keep (i) each Branch Director supervising ≤5 divisions/groups and (ii) the Operations Section Chief supervising ≤5 branches, what is the minimum number of branches you should create?",
+        "answer": "4 – Create 4 branches.  \n Explanation:  \n • Constraint: ≤5 divisions per Branch → ⌈18 ÷ 5⌉ \\= 4 branches.  \n • Ops supervises 4 Branch Directors, which is ≤5.  \n Formulas: ceiling division; span-of-control limits per ICS guidance (typical 3–7, recommended 1–5). (Section II, pp. 387–391)."
+      },
+      {
+        "concept_description": "Major Incident Management (Complex/Area/Unified)",
+        "difficulty": "Hard",
+        "question_text": "(Multiple-choice scenario) A dry thunderstorm starts eight small fires within a 20-mile corridor. They’re close enough to share logistics and one IMT can handle them; none is yet large. What organizational approach best fits?  \n **A.** Area Command over eight separate ICS organizations  \n **B.** Complex the fires under one incident management team  \n **C.** Merge all fires into one division under a single incident  \n **D.** Have each agency order resources independently to simplify cost-sharing",
+        "answer": "B – A Complex manages multiple proximate incidents under one team, improving coordination and logistics. A is for overseeing several separate ICS orgs; C misuses division for separate incidents; D fragments ordering and undermines coordination. (Section VI, pp. 410–412, 414).\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "11",
+    "title": "Firefighting Realities",
+    "questions": [
+      {
+        "concept_description": "Risk vs. Values—Risk Management Mindset",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: Dr. Gordon Graham says, “If it is \\_\\_\\_\\_\\_\\_, it is preventable,” reminding firefighters to anticipate hazards and choose tactics that reduce risk while still protecting valuable assets.",
+        "answer": "predictable – “predictable.” Explanation: The quote anchors risk management in anticipating known hazards, then adjusting actions to reduce exposure while still achieving protection objectives. Use it to challenge plans that add risk without clear benefit. \\[pp. 419–421\\]"
+      },
+      {
+        "concept_description": "Situational Awareness & Trigger Points",
+        "difficulty": "Easy",
+        "question_text": "In one sentence, what is a trigger point and why do crews set them?",
+        "answer": "A trigger point is a pre-set condition (e.g., wind shift, RH or fire reaching a ridge) that, once met, prompts a preplanned action like moving to a safety zone. Explanation: Pre-deciding actions reduces hesitation under stress and builds safe margins into operations. \\[pp. 423–424\\]"
+      },
+      {
+        "concept_description": "Small vs. Large Fire Operations",
+        "difficulty": "Easy",
+        "question_text": "True or False: Small fires typically spread by direct flame contact, short-range spotting, and rolling material; large fires often move into a “third dimension” with strong vertical plumes that change tactics.",
+        "answer": "True. Explanation: Small fires behave mainly in two dimensions; large fires add vertical plume dynamics, bringing long-range spotting and different control strategies. \\[pp. 433–435\\]"
+      },
+      {
+        "concept_description": "Rules of Engagement by Jurisdiction",
+        "difficulty": "Medium",
+        "question_text": "You arrive to a lightning-caused fire inside a National Park wilderness. Which initial approach best aligns with the jurisdiction’s rules of engagement?  \n A. Launch dozers immediately to cut a wide line wherever fastest  \n B. Rely on airtankers alone to “knock it out” and skip ground follow-up  \n C. Minimize impact: scout, use natural barriers, and engage selectively where values are at risk  \n D. Back off entirely; National Parks never suppress fires",
+        "answer": "C – Minimize impact: scout, use natural barriers, and engage selectively where values are at risk. Explanation: Park and wilderness objectives emphasize resource protection and minimal disturbance, engaging where necessary for safety/values. Rebuttals: A—Dozers are often restricted. B—Airtankers require ground follow-up. D—Suppression may occur when risks/values warrant it. \\[pp. 425–426\\]"
+      },
+      {
+        "concept_description": "Situational Awareness & Trigger Points",
+        "difficulty": "Medium",
+        "question_text": "Afternoon RH is forecast to drop to your crew’s trigger of 18%. At 17% and rising winds, what is the most appropriate action?  \n A. Hold position; the line looked good an hour ago  \n B. Request a helicopter drop to buy time, then reassess later  \n C. Move to the identified safety zone and execute the preplanned adjustment  \n D. Continue mop-up; the forecast could change",
+        "answer": "C – Move to the identified safety zone and execute the preplanned adjustment. Explanation: Trigger points are set to prompt timely, pre-decided moves without debate under stress. Rebuttals: A—“Looked good” is not current intel. B—Do not base safety on aircraft availability. D—Hope is not a tactic. \\[pp. 423–425\\]"
+      },
+      {
+        "concept_description": "Small vs. Large Fire Operations",
+        "difficulty": "Medium",
+        "question_text": "A fast-growing fire has built a tall convection column and is spotting ahead. Which tactic best fits this behavior?  \n A. Direct attack on the head with engines only  \n B. Anchor and flanking, with indirect control lines where direct attack is unsafe  \n C. Wait for airtankers to build a retardant wall and call it control line  \n D. Split the head to create two smaller heads",
+        "answer": "B – Anchor and flanking, with indirect lines where needed. Explanation: Plume-driven fires call for anchored, often indirect tactics; retardant needs ground follow-up. Rebuttals: A—Unsafe on the head. C—Retardant isn’t control line by itself. D—“Splitting the head” can worsen spread. \\[pp. 433–435\\]"
+      },
+      {
+        "concept_description": "Training, Speaking Up & Right to Refuse",
+        "difficulty": "Hard",
+        "question_text": "Brief scenario (≤40 words): Your crew lists multiple “watch-outs,” but the group momentum favors pressing on. What should you do next?  \n A. Stay quiet; disagreement slows operations  \n B. Speak up, request reassessment, and if risks can’t be mitigated, turn down the assignment  \n C. Call for aircraft and continue  \n D. Proceed quickly to finish before conditions worsen",
+        "answer": "B – Speak up, request reassessment, and if risks can’t be mitigated, turn down the assignment. Explanation: The Abilene Paradox warns against false consensus; policy supports turning down unsafe assignments based on risk assessment and mitigation limits. Rebuttals: A—Silence fuels bad decisions. C—Aircraft don’t fix fundamental risk. D—Speed doesn’t remove hazard. \\[pp. 428–431, 424–425\\]"
+      },
+      {
+        "concept_description": "Training That Holds Under Stress",
+        "difficulty": "Hard",
+        "question_text": "During drills you practice moving to safety while carrying tools. Later, a real escape is ordered. Which training change most improves survival under stress?  \n A. Keep tools for accountability  \n B. Practice dropping tools and moving fast along pre-identified routes, adding wind/smoke realism  \n C. Wait for a helicopter pickup  \n D. Pair with a lookout who carries both sets of tools",
+        "answer": "B – Practice dropping tools and moving fast along pre-identified routes, adding wind/smoke realism. Explanation: “First learned” habits persist; realistic training must encode the correct reflex (drop weight, move now) to overcome cognitive freeze. Rebuttals: A—Adds load/time. C—Aircraft may be unavailable. D—Increases burden and delay. \\[pp. 446–451\\]"
+      },
+      {
+        "concept_description": "Thinking Big on Mega-Fires",
+        "difficulty": "Hard",
+        "question_text": "A wind-driven event rapidly outpaces initial attack; the IC is ordering resources in small increments every few minutes. What is the best strategic correction?  \n A. Keep incremental orders; it’s flexible  \n B. Pause ordering; wait for nightfall  \n C. Project spread, set broad objectives, establish anchors/indirect lines, plan “what-ifs,” and order adequately early  \n D. Focus solely on structure defense and ignore fire behavior",
+        "answer": "C – Project spread, set broad objectives, establish anchors/indirect lines, plan “what-ifs,” and order adequately early. Explanation: Mega-fire management demands big-picture planning and timely resourcing; incremental thinking signals under-projection. Rebuttals: A—Symptom of “thinking small.” B—Loses critical time. D—One-track focus misses fire dynamics. \\[pp. 436–444\\] \n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "12",
+    "title": "Map Reading",
+    "questions": [
+      {
+        "concept_description": "Map Reading Basics (Topo vs. Road)",
+        "difficulty": "Easy",
+        "question_text": "You’re assigned to scout potential indirect line locations in hilly, unfamiliar terrain. Which map gives the most useful terrain detail for predicting fire spread and selecting control lines?  \n **A.** A road atlas that emphasizes highways and towns  \n **B.** An aerial photo with no contour lines  \n **C.** A topographic map that shows contour lines and landforms  \n **D.** A city zoning map of permitted land uses",
+        "answer": "C – A topographic map. It depicts elevation and relief with contours, letting crews read slopes, ridges, valleys, and cliffs—crucial for tactics and safety. A/B/D lack reliable relief detail. (pp. 455–456, 465\\)"
+      },
+      {
+        "concept_description": "Contours & Terrain Interpretation",
+        "difficulty": "Easy",
+        "question_text": "True or False: On a topographic map, contour lines that are close together indicate a gentle, uniform slope that is easy to walk and slows fire spread.",
+        "answer": "False – Close spacing means a steep slope; steep slopes accelerate uphill runs and are harder to traverse. Widely spaced contours indicate gentler ground. (pp. 466–467, 469\\)"
+      },
+      {
+        "concept_description": "Compass & Declination",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: Compass \\_\\_\\_\\_\\_\\_ is the correction applied because a compass points to magnetic north (in Canada) rather than true north at the pole; it varies by location and can change with time.",
+        "answer": "Declination – It’s the angle between magnetic and true north that must be accounted for when navigating. (pp. 462–463, 478–481)"
+      },
+      {
+        "concept_description": "Scale & Distance",
+        "difficulty": "Medium",
+        "question_text": "Your 1:24,000 topo map shows a dozer push of 3.5 inches along a ridge. What is the ground distance in feet and miles?",
+        "answer": "7,000 ft (≈1.33 mi) – Work: 3.5 in × 24,000 \\= 84,000 in; 84,000 ÷ 12 \\= 7,000 ft; 7,000 ÷ 5,280 ≈ 1.33 mi. Uses representative fraction and unit conversion. (pp. 462–464)"
+      },
+      {
+        "concept_description": "Slope / Grade Calculation",
+        "difficulty": "Medium",
+        "question_text": "A lookout stands at 1,240 ft elevation. A knob upslope is 1,420 ft away by elevation and 0.9 miles away horizontally. What is the percent slope?",
+        "answer": "3.8% – Work: Vertical rise \\= 1,420 − 1,240 \\= 180 ft. Horizontal \\= 0.9 mi × 5,280 \\= 4,752 ft. % slope \\= (180 ÷ 4,752) × 100 ≈ 3.8%. (pp. 476–477)"
+      },
+      {
+        "concept_description": "Compass & Declination",
+        "difficulty": "Medium",
+        "question_text": "From camp you’re told the spot fire is at a true bearing of 112°. Local declination is 15° W. What compass setting should you follow on your magnetic compass?  \n **A.** 97°  \n **B.** 112°  \n **C.** 127°  \n **D.** 15°",
+        "answer": "A – 97°. For west declination, subtract from the true bearing: 112° − 15° \\= 97°. B: ignores declination. C: adds instead of subtracts. D: declination value, not a bearing. (pp. 480–481)"
+      },
+      {
+        "concept_description": "Contours & Terrain Interpretation",
+        "difficulty": "Hard",
+        "question_text": "Brief scenario (≤40 words): A draw shows “V” contours pointing upstream; two ridges show broad “U” contours pointing downslope; a short cliff is hatched. Where should a handline begin to maximize anchor strength and minimize chimney effects?  \n **A.** Bottom of the draw  \n **B.** Mid-slope facing into the draw  \n **C.** Along the ridge crest connecting the “U” shapes  \n **D.** Across the hatched cliff face",
+        "answer": "C – Ridge crests offer better control and safer anchor points; draws/chimneys can accelerate fire; cliffs are hazardous. A/B increase exposure to rapid runs; D is unsafe and impractical. (pp. 466–467, 471–474)"
+      },
+      {
+        "concept_description": "Scale & Distance",
+        "difficulty": "Hard",
+        "question_text": "You must estimate time for a dozer along a winding road. The map has both a graphic scale and 1:24,000 RF. What’s the quickest accurate way to get the road length from the map?  \n **A.** Measure straight-line distance with a ruler, then multiply by RF  \n **B.** “Walk” a paper strip with tick marks along each bend, then read the graphic scale  \n **C.** Count contour lines crossed and multiply by the interval  \n **D.** Shoot the azimuth to the road’s end and convert to miles",
+        "answer": "B – The paper-strip tick method captures curves accurately, then the graphic scale converts ticks to ground distance. A underestimates curves; C is for elevation, not length; D gives direction, not length. (pp. 462–465)"
+      },
+      {
+        "concept_description": "Slope / Grade Calculation (using Contours & Scale)",
+        "difficulty": "Hard",
+        "question_text": "On a 1:24,000 map, Point A is at 1,200 ft and Point B is at 1,520 ft. The contour interval is 40 ft. Map distance A–B is 2.2 inches (straight line). What is the percent slope A→B?",
+        "answer": "7.3% – Work: Vertical rise \\= 1,520 − 1,200 \\= 320 ft (8 intervals × 40). Ground distance \\= 2.2 in × 24,000 \\= 52,800 in \\= 4,400 ft. % slope \\= (320 ÷ 4,400) × 100 ≈ 7.27% ≈ 7.3%. (pp. 462–464, 465–471, 476–477)\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "13",
+    "title": "Fire Prevention",
+    "questions": [
+      {
+        "concept_description": "The Three Components of Prevention (Education, Engineering, Enforcement)",
+        "difficulty": "Easy",
+        "question_text": "A new ranger is designing a prevention effort for a county with frequent human-caused starts. Which option best represents the “engineering” part of a wildland fire prevention program?  \n A. Teaching school and civic groups how to burn yard debris safely  \n B. Creating and maintaining fuel breaks; requiring spark arresters on equipment; clearing around structures and power lines  \n C. Prosecuting illegal debris burning and issuing citations during red-flag days  \n D. Running Smokey Bear PSAs on local TV and radio",
+        "answer": "B – Creating and maintaining fuel breaks; requiring spark arresters; clearance work. Engineering separates heat sources from fuels or shields fuels when heat must remain. A and D are education; C is enforcement. (pp. 490–492)"
+      },
+      {
+        "concept_description": "Home Hardening—Roofs, Gutters, Siding, Openings",
+        "difficulty": "Easy",
+        "question_text": "True or False: An untreated wood roof with needles and leaves in the gutters greatly increases the chance that wind-blown firebrands will ignite the home, even if flames never reach the walls.",
+        "answer": "True – Roof covering and debris accumulation are critical ignition points; embers land on roofs and in gutters long before flames reach the structure. Regular debris removal and fire-resistant roofing reduce risk. (pp. 492–500)"
+      },
+      {
+        "concept_description": "Defensible Space & Fuel Modification",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: The cleared, managed area between a house and surrounding vegetation that lets the home be defended safely is called “\\_\\_\\_\\_\\_\\_.”",
+        "answer": "Defensible space – It reduces flame contact and radiant heat, giving residents and firefighters a workable zone. Adequate clearance plus sound construction are the keys to survivability. (pp. 492–500)"
+      },
+      {
+        "concept_description": "Access, Addressing & Water for Structure Protection",
+        "difficulty": "Medium",
+        "question_text": "A driveway to a home in the interface is 16 ft wide with a 10% grade; the only bridge is rated 50,000 lb; the address numbers are reflective but only 2 inches tall. Which single upgrade most directly enables simultaneous evacuation and fire-apparatus access?  \n A. Replace the bridge with a 60,000-lb bridge  \n B. Widen the road to at least 20 ft  \n C. Regrade to a 5% slope  \n D. Repaint address numbers to 6 inches",
+        "answer": "B – Widen to ≥20 ft. Grade (≤15%) and bridge load (≥40,000 lb) already meet guidance; wider access allows engines in while residents exit. Larger numbers help wayfinding but don’t solve the access constraint. (pp. 492–500)"
+      },
+      {
+        "concept_description": "Defensible Space & Fuel on Slopes",
+        "difficulty": "Medium",
+        "question_text": "A cabin sits on a 45% slope with exactly 30 ft of clearance. Fire weather is trending drier. What action best aligns with defensible-space guidance for steep terrain?  \n A. Expand clearance well beyond 30 ft downslope  \n B. Install smoke detectors first; clearance can wait  \n C. Replace double-pane windows with single-pane to “vent heat”  \n D. Move the LPG tank closer for easier cooling",
+        "answer": "A – Increase clearance substantially on steep slopes; fire runs uphill harder, so more separation may be needed (often up to 100–200 ft). The other options ignore or worsen exposure. (pp. 492–500)"
+      },
+      {
+        "concept_description": "Risks vs. Hazards in Prevention Planning",
+        "difficulty": "Medium",
+        "question_text": "You are charting recent fires by cause and fuels. Which pairing correctly matches risk (cause) and hazard (fuel)?  \n A. Risk: debris burning; Hazard: dry grass  \n B. Risk: leaves; Hazard: smoking  \n C. Risk: steep slope; Hazard: LPG tank  \n D. Risk: double-pane windows; Hazard: steel roof",
+        "answer": "A – Debris burning is a human activity that starts fires (risk); dry grass is the fuel in which fires burn (hazard). B reverses roles; C lists a topographic factor and equipment, not fuels; D lists mitigation features, not risks or hazards. (p. 493\\)"
+      },
+      {
+        "concept_description": "Assisting Fire Cause Determination",
+        "difficulty": "Hard",
+        "question_text": "En route at night, you pass a sedan leaving a ranch road with lights off and a gate lying damaged. On arrival a small group stands near a field while crews begin line construction 100 yards away. What is the best immediate action to support cause determination without compromising safety?  \n A. Move debris at the suspected origin to find the ignition source quickly  \n B. Record and relay the vehicle description/time/direction; flag and secure the apparent origin; keep all personnel and bystanders out until an investigator arrives  \n C. Stop suppression to interview bystanders before size-up  \n D. Clear more fence to make a wider access path through the origin",
+        "answer": "B – Observe and document en route/arrival details, protect the origin, and avoid disturbing evidence; share information promptly with investigators. Do not move suspected evidence or delay safety-critical tasks. (pp. 502–503)"
+      },
+      {
+        "concept_description": "Home Hardening—Vents, Windows, Eaves, Chimneys",
+        "difficulty": "Hard",
+        "question_text": "A homeowner asks which retrofit package best follows guidance to reduce ember intrusion and radiant-heat ignition.  \n A. ¼-inch mesh on attic vents; double-pane windows; enclosed eaves; a 12-gauge chimney spark arrester with ½-inch openings  \n B. ½-inch mesh on attic vents; single-pane windows; boxed eaves  \n C. Keep wood shingles but clean gutters annually; ¼-inch chimney screen  \n D. Cover attic vents completely; switch to heavy tile and leave eaves open",
+        "answer": "A – Use ¼-inch mesh on attic vents; double-pane windows; enclose eaves; and a chimney/stovepipe spark arrester of 12-gauge wire with ½-inch openings. Other options either use wrong sizes, remove key protections, or retain highly flammable roofing. (pp. 492–500)"
+      },
+      {
+        "concept_description": "Debris-Burning Standards & Safe Practices",
+        "difficulty": "Hard",
+        "question_text": "A resident’s permit request includes: a burn pile 5 ft high and 6 ft across; a 6-ft-radius clear area; constant attendance with a shovel but no working hose; and an old barrel with side holes and a lid screen of ¾-inch openings. Which option lists all required corrections before approval?  \n A. Reduce pile to ≤4×4 ft; clear ≥10-ft radius; provide a shovel and a water hose; use a barrel without holes and a screen with ≤½-inch openings  \n B. Keep pile size; add a metal rake only; screen size is acceptable  \n C. Reduce pile and add a hose; side holes are fine if the lid fits tightly  \n D. Only enlarge the cleared area; other details are discretionary",
+        "answer": "A – Standards include small piles (≤4×4 ft), ≥10-ft cleared radius, constant attendance with shovel and water hose, and a sound barrel with a screen whose openings are no larger than ½-inch. (pp. 492–500)\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "14",
+    "title": "Introduction to Hazardous Materials Recognition",
+    "questions": [
+      {
+        "concept_description": "General Guidelines for Initial Haz-Mat Response",
+        "difficulty": "Easy",
+        "question_text": "True or False: If you suspect a hazardous-materials release on a roadside, you should quickly approach the spill to “size it up,” then decide whether to call it in.",
+        "answer": "False – approach cautiously only with authorization; isolate the area first, keep people at a safe distance, avoid contact/inhalation, and maintain communications. Rushing in increases risk and can make you part of the problem. (pp. 507–509)."
+      },
+      {
+        "concept_description": "Six Clues for Detecting Hazardous Materials",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: One prioritized clue is the shape of the \\_\\_\\_\\_\\_\\_ used to store or transport the material, which can hint at what’s inside.",
+        "answer": "container. Container shapes (e.g., tankers) help identify likely contents; the six clues are prioritized, starting with occupancy/location, then container shapes. (pp. 512–514)."
+      },
+      {
+        "concept_description": "Drug Labs (Clandestine Labs)",
+        "difficulty": "Easy",
+        "question_text": "While scouting a wildland–urban interface, you notice a small LPG cylinder with a turquoise-colored valve stem near a shed. What does this most strongly indicate?  \n **A.** A standard propane cylinder that has weathered normally  \n **B.** A cylinder previously used for chlorine storage  \n **C.** A cylinder containing or having contained anhydrous ammonia used in drug production  \n **D.** A harmless camping fuel canister you can move aside",
+        "answer": "C – a turquoise/oxidized brass valve on a small “LPG” tank indicates anhydrous ammonia commonly tied to clandestine meth labs; do not touch and report immediately. A: normal weathering does not mandate turquoise oxidation; B: chlorine is stored differently; D: never move suspect cylinders. (pp. 510–512)."
+      },
+      {
+        "concept_description": "D.E.C.I.D.E. Process",
+        "difficulty": "Medium",
+        "question_text": "Brief scenario MCQ: You detect a strong chemical odor near a shed and see a large LPG tank within \\~100 ft of a structure. After Detect and Estimate, what should be your immediate response objective?  \n **A.** Enter upwind with a partner to close valves  \n **B.** Stay away, keep a safe distance, notify authorities, prevent others from entering  \n **C.** Don structural PPE and attempt product control  \n **D.** Wait for odor to dissipate, then re-check",
+        "answer": "B – “Choose the response objective”: stay away, maintain distance, notify, and keep others out. A/C: operational control isn’t an awareness-level action; D delays protective measures. (p. 510)."
+      },
+      {
+        "concept_description": "Six Clues for Detecting Hazardous Materials",
+        "difficulty": "Medium",
+        "question_text": "Multiple-choice: You pull up to a collision involving a road tanker near a school. To size up the hazard, which clue should you consider first according to the prioritized list?  \n **A.** Markings and colors on containers  \n **B.** Type of occupancy and location  \n **C.** Your sense of smell  \n **D.** Shipping papers",
+        "answer": "B – occupancy/location is the first-priority clue; here, a school drives immediate protective decisions. A/D come later; C: senses can mislead and may be dangerous with toxic/odorless gases. (pp. 512–514)."
+      },
+      {
+        "concept_description": "Unexploded Ordnance (UXO) Safety & Reporting",
+        "difficulty": "Medium",
+        "question_text": "True or False: If you discover suspected UXO while line scouting, it’s acceptable to key your handheld radio to report it as long as you remain 500 feet away.",
+        "answer": "False – never transmit on a radio around UXO; stop, do not move closer, mark the area clearly, keep at least 500 ft away, and report the discovery to your supervisor by safe means. (pp. 514–515)."
+      },
+      {
+        "concept_description": "Drug Labs (Clandestine Labs)",
+        "difficulty": "Hard",
+        "question_text": "Decision-making MCQ: In an abandoned motel unit near the fire edge you observe solvent cans, large quantities of cold-med blister packs, and a small cylinder with a turquoise valve. Using D.E.C.I.D.E., which initial sequence best fits your role?  \n **A.** Detect → Enter to shut off sources → Choose “rescue/neutralize”  \n **B.** Detect → Estimate likely harm → Choose “stay away/keep others out” → Notify authorities  \n **C.** Detect → Identify action options → Do “ventilate room” → Evaluate  \n **D.** Detect → Do “remove cylinder to safe area” → Evaluate",
+        "answer": "B – After detection, estimate harm, then choose a defensive objective (stay away, isolate, notify) and keep others out; drug labs pose explosion/toxic risks. A/C/D involve entry or manipulation, which are unsafe at awareness level. (pp. 510–513)."
+      },
+      {
+        "concept_description": "Unexploded Ordnance (UXO) Safety & Reporting",
+        "difficulty": "Hard",
+        "question_text": "A dozer boss flags “metal objects” on a former range. Crews suggest moving debris so the dozer can pass. What is the safest integrated action set for you to direct?  \n **A.** Move fragments gently with hand tools; call EOD if fuses are visible  \n **B.** Back the dozer out; mark the area; no radio transmission near the site; maintain ≥500-ft standoff; report to supervisor  \n **C.** Photograph items up close, then post a safety alert  \n **D.** Use the dozer to push items into a pile for later pickup",
+        "answer": "B – Stop and do not move closer, clearly mark, keep ≥500 ft away, avoid radio transmission near UXO, and report to supervision for proper disposal. A/C/D increase detonation risk. (pp. 514–515)."
+      },
+      {
+        "concept_description": "General Guidelines for Initial Haz-Mat Response",
+        "difficulty": "Hard",
+        "question_text": "Multiple-choice scenario: You arrive first to a roadside puddle of unknown chemical with bystanders walking toward it and a breeze pushing vapors across the lane. Which action package best matches recommended guidelines?  \n **A.** Enter quickly to identify the product; reassure bystanders; move fire apparatus closer for lighting  \n **B.** Isolate the area and direct people upwind/upgrade to a safe distance; avoid walking into/through the spill or vapors; maintain comms with supervisor/dispatch  \n **C.** Attempt to neutralize the liquid with dirt while you wait for haz-mat specialists  \n **D.** Ignore until a confirmed placard or shipping paper is found",
+        "answer": "B – First isolate and keep the public away, stay upwind/upgrade, avoid contact/inhalation, and maintain communications; do not rush in or manipulate the product. A/C/D violate “do not touch,” “avoid vapors,” and the need to act defensively early. (pp. 507–509). \n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  },
+  {
+    "chapter": "15",
+    "title": "Use and Care of Tools",
+    "questions": [
+      {
+        "concept_description": "Hand tool spacing & passing protocol",
+        "difficulty": "Easy",
+        "question_text": "Fill in the blank: When you need to move past coworkers who are actively swinging tools on the fireline, you should call out “\\_\\_\\_\\_\\_\\_” and wait until they pause before passing.",
+        "answer": "Coming through\\! – This alerts others to stop swinging so you can pass without entering their tool arc; it’s a specific, taught phrase, not casual chatter. p. 15-7;"
+      },
+      {
+        "concept_description": "Cutting tools — axe carry basics",
+        "difficulty": "Easy",
+        "question_text": "You’re traversing uneven ground with an axe. What is the correct way to carry it to minimize injury risk and maintain control?  \n **A.** Grip the handle end; let the head trail behind with the handle angled up  \n **B.** Hold it at the balance point just behind the head, head facing forward, handle parallel to the ground  \n **C.** Sling it over a shoulder with the blade behind you  \n **D.** Hold the bit in your gloved hand with the edge pointing down",
+        "answer": "B – Holding at the balance point with the head forward keeps control and reduces fatigue; the other methods are unstable or unsafe. Rebuttals: A—poor control; C—exposes others; D—never hold by the bit. p. 15-11;"
+      },
+      {
+        "concept_description": "Scraping tools — safe McLeod carry",
+        "difficulty": "Easy",
+        "question_text": "When carrying a McLeod along the line, which orientation best reduces the chance of puncture injuries if you fall?  \n **A.** Hoe edge down to cut while walking  \n **B.** Hoe edge up so you won’t fall on the rake tines  \n **C.** Rake tines forward for quick deployment  \n **D.** Blade vertical to fit narrow trails",
+        "answer": "B – Carrying hoe edge up avoids falling onto the tines; punctures are more dangerous than lacerations. Rebuttals: A—creates trip hazard; C—exposes tines; D—doesn’t address injury risk. p. 15-17;"
+      },
+      {
+        "concept_description": "Hand tool sharpening — file technique",
+        "difficulty": "Medium",
+        "question_text": "You’re showing a rookie how to file a Pulaski. Which guidance is correct for both edge quality and safety?  \n **A.** Use a power grinder; press hard on both strokes  \n **B.** Use a flat mill-bastard file with guard; wear gloves; make long forward strokes, keep a constant angle, release pressure on the backstroke  \n **C.** Short, fast strokes changing angles to “chase” nicks  \n **D.** File toward your body so you can see the bevel",
+        "answer": "B – Forward-only pressure with a guarded mill-bastard file, constant angle, and gloves yields a safe, consistent edge. Rebuttals: A—risks ruining tool; C—inconsistent bevel; D—increases injury risk. p. 15-5;"
+      },
+      {
+        "concept_description": "Scraping tools — two-person McLeod team",
+        "difficulty": "Medium",
+        "question_text": "Light grass is racing upslope. Two firefighters must cut a quick scratch line with McLeods. Which setup is correct?  \n **A.** Both chop vertically like garden hoes  \n **B.** Lead faces travel with tool behind, scraping edge down; second trails with tool in front, rake tines intertwined atop the first, adding downward pressure  \n **C.** Lead rakes; second scrapes randomly for speed  \n **D.** Both pull backward to keep faces away from heat",
+        "answer": "B – Intertwined tools let the lead provide motion while the rear adds cutting pressure—fast for emergency scratch line. Rebuttals: A—wastes energy; C—uncoordinated; D—awkward/unsafe. p. 15-18;"
+      },
+      {
+        "concept_description": "Backpack pumps — diagnosing flow issues",
+        "difficulty": "Medium",
+        "question_text": "A rigid backpack tank starts denting inward and the stream weakens even though it’s full. What single check fixes the problem first?  \n **A.** Tighten all hose clamps  \n **B.** Open/clear the air vent in the tank lid  \n **C.** Switch to spray tip for less backpressure  \n **D.** Add fuel to the engine",
+        "answer": "B – A plugged lid vent causes vacuum and tank collapse; clearing it restores flow. (Manual backpumps have no engine.) Rebuttals: A/C—symptoms are vacuum, not leaks; D—N/A. p. 15-28;"
+      },
+      {
+        "concept_description": "Felling tools — wedges & lookout",
+        "difficulty": "Hard",
+        "question_text": "While chainsawing a leaning tree, the kerf starts to close. Which choice manages the cut and team safety?  \n **A.** Drive a metal wedge; keep cutting solo to finish fast  \n **B.** Insert plastic wedges; designate a lookout and use a preplanned escape route  \n **C.** Use a wooden wedge; continue without a lookout to reduce noise  \n **D.** Pry the kerf with the bar to avoid carrying wedges",
+        "answer": "B – Plastic wedges prevent chain damage/kickback with saws, and a lookout plus escape route are required risk controls. Rebuttals: A—metal damages chain; C—no lookout is unsafe; D—prying risks bar/kerf failure. p. 15-24 (wedges), p. 15-23 (lookout/escape);"
+      },
+      {
+        "concept_description": "Backpack pumps — burn-out support tactics",
+        "difficulty": "Hard",
+        "question_text": "During a burn-out in light grass with frequent spots, which combination best controls spread while conserving water?  \n **A.** Random blasts ahead of the flame; keep walking  \n **B.** Deploy pumps sparingly; use wide fog only  \n **C.** Deploy pumps liberally; sweep parallel to the edge in a coordinated motion; keep nozzle hand steady and pump with the other; add wetting agent to each tank  \n **D.** Aim high arcs over the line to “rain” water down",
+        "answer": "C – Parallel sweeping coordinated with pumping controls the edge; wetting agent stretches water; steady/nozzle hand improves aim. Rebuttals: A—wastes water; B—too little coverage; D—poor placement/splash. p. 15-29–15-30;"
+      },
+      {
+        "concept_description": "Hand tools — side-hill movement & spacing",
+        "difficulty": "Hard",
+        "question_text": "Your crew is cutting handline on a steep side-hill. Which set of practices is correct?  \n **A.** Carry tools on uphill side; 6-ft spacing; pass silently to avoid distractions  \n **B.** Carry tools on downhill side; ≥10-ft spacing; announce “Coming through\\!” and wait for swings to stop before passing  \n **C.** Carry tools vertically; any spacing works if PPE is worn; pass whenever there’s a gap  \n **D.** Carry tools downhill; 3-ft spacing to stay tight; pass quickly without stopping",
+        "answer": "B – Downhill carry prevents landing on a sharp edge if you fall; maintain at least 10 feet between workers; use the taught pass-through call and wait. Rebuttals: A/C/D—each violates one or more safety rules. p. 15-7–15-8;\n\n---\n\n---\n\n**\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_**"
+      }
+    ]
+  }
+]
