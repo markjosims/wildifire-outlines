@@ -3,13 +3,17 @@ Based off demo in https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/
 """
 
 import streamlit as st
-from prompts import get_system_prompt, stream_model_response
+from chat import get_system_prompt, get_model_response, QuestionServer
 
 st.title("Wildfire demo assessment")
 
 
-if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-4o"
+@st.cache_resource
+def get_question_server():
+    return QuestionServer()
+
+
+question_server = get_question_server()
 
 first_message = False
 if "messages" not in st.session_state:
@@ -30,8 +34,7 @@ if prompt := st.chat_input("Type response here"):
         st.markdown(prompt)
 
 if prompt or first_message:
-    model = st.session_state["openai_model"]
     messages = st.session_state.messages
     with st.chat_message("assistant"):
-        messages = stream_model_response(messages, st.write_stream, model)
+        messages = get_model_response(messages, question_server, st.write)
     st.session_state.messages = messages
