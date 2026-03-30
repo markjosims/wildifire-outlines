@@ -69,7 +69,7 @@ class QuestionServer:
         self.max_clarifications = 5
         self.max_answer_attempts = 5
 
-    def load_data(self) -> list[dict[str, str | dict[str, str]]]:
+    def load_data(self) -> list[dict[str, str | list[dict[str, str]]]]:
         with open(self.json_path) as f:
             data = json.load(f)
         return data
@@ -119,7 +119,8 @@ class QuestionServer:
 
     def get_current_question_data(self) -> dict[str, str]:
         chapter_data = self.get_current_chapter_data()
-        question_data: dict[str, str] = chapter_data["questions"][self.question_index]
+        question_data = chapter_data["questions"][self.question_index]
+        assert type(question_data) is dict
         question_data = {
             "chapter": chapter_data["chapter"],
             "title": chapter_data["title"],
@@ -177,6 +178,11 @@ class Response(BaseModel):
     decision: Literal["follow_up", "next_question"]
 
 
+class StudentAnswer(BaseModel):
+    message: str
+    decision: Literal["Answer", "Ask for clarification"]
+
+
 """
 Prompt functions
 """
@@ -193,7 +199,65 @@ def get_system_prompt(
     return system_prompt
 
 
-def handle_next_question(chat: Chat, question_server: QuestionServer) -> Chat:
+def update_all_chats(
+    chat_dict: dict[str, Chat],
+    role: Literal["proctor", "student", "system"],
+    prompt: str,
+) -> dict[str, Chat]:
+    """
+    Add message to 'main_chat' (where assistant=proctor and user=student)
+    and 'student_chat' (where assistant=student and user=proctor).
+    """
+    main_chat = chat_dict["main_chat"]
+    match role:
+        case "system":
+            main_chat.add_system_message(prompt)
+        case "proctor":
+            main_chat.add_assistant_message(prompt)
+        case "student":
+            main_chat.add_user_message(prompt)
+        case _:
+            raise ValueError("Unexpected role", role)
+
+    chat_dict["main_chat"] = main_chat
+
+    if "student_chat" in chat_dict:
+        student_chat = chat_dict["student_chat"]
+        match role:
+            case "system":
+                student_chat.add_system_message(prompt)
+            case "proctor":
+                student_chat.add_user_message(prompt)
+            case "student":
+                student_chat.add_assistant_message(prompt)
+
+        chat_dict["student_chat"] = student_chat
+
+    return chat_dict
+
+
+def add_system_message(
+    chat_dict: dict[str, Chat], chat: Literal["main_chat", "student_chat"], prompt: str
+) -> dict[str, Chat]:
+    """
+    Add system message to specified chat, where the Proctor model sees system messages
+    in "main_chat" and the Student model sees system messages in "student_chat"
+    """
+    match chat:
+        case "main_chat":
+            main_chat = chat_dict["main_chat"]
+            main_chat.add_system_message(prompt)
+            chat_dict["main_chat"] = main_chat
+        case "student_chat":
+            student_chat = chat_dict["student_chat"]
+            student_chat.add_system_message(prompt)
+            chat_dict["student_chat"] = student_chat
+    return chat_dict
+
+
+def handle_next_question(
+    chat_dict: dict[str, Chat], question_server: QuestionServer
+) -> dict[str, Chat]:
     """
     Writes question data to chat as system prompt and writes question text
     to chat interface for student to read. Return updated chat.
@@ -203,25 +267,28 @@ def handle_next_question(chat: Chat, question_server: QuestionServer) -> Chat:
     question_json = json.dumps(question_data, indent=2)
     question_message = question_server.format_question(**question_data)
 
+    # only proctor sees all question data
     system_message = f"Current question data: {question_json}"
-    chat.add_system_message(system_message)
+    chat_dict = add_system_message(chat_dict, chat="main_chat", prompt=system_message)
     print(system_message)
-    chat.add_assistant_message(question_message)
 
-    return chat
+    # all chats get question message
+    chat_dict = update_all_chats(chat_dict, role="proctor", prompt=question_message)
+
+    return chat_dict
 
 
 def handle_student_response(
-    chat: Chat,
+    chat_dict: dict[str, Chat],
     user_response_type: Literal["Answer", "Ask for clarification"],
     question_server: QuestionServer,
     prompt: str,
-) -> Chat:
+) -> dict[str, Chat]:
     """
     Adds user message to chat and then selects appropriate system prompt
     based on user response type.
     """
-    chat.add_user_message(prompt)
+    chat_dict = update_all_chats(chat_dict, role="student", prompt=prompt)
     if user_response_type == "Answer":
         question_server.increment_attempts()
         system_prompt = get_system_prompt(role="assistant", prompt_type="answer")
@@ -232,39 +299,67 @@ def handle_student_response(
         raise ValueError(f"Unknown user response type {user_response_type}")
 
     status_message = question_server.get_attempt_and_clarification_message()
-    chat.add_assistant_message(status_message)
+    chat_dict = update_all_chats(chat_dict, role="proctor", prompt=status_message)
     print(status_message)
 
-    chat.add_system_message(system_prompt)
+    chat_dict = add_system_message(chat_dict, chat="main_chat", prompt=system_prompt)
     print(system_prompt)
-    return chat
+
+    return chat_dict
+
+
+def handle_lm_student_response(
+    chat_dict: dict[str, Chat],
+    question_server: QuestionServer,
+) -> dict[str, Chat]:
+    """
+    Prompt LLM student to respond to question.
+    """
+    student_chat = chat_dict["student_chat"]
+
+    # student system prompt only goes to student chat
+    question_prompt = get_system_prompt("student", "question")
+    chat_dict = add_system_message(
+        chat_dict, chat="student_chat", prompt=question_prompt
+    )
+
+    # student response goes to all chats
+    response = model(student_chat, StudentAnswer)
+    answer: StudentAnswer = StudentAnswer.model_validate_json(response)
+    chat_dict = handle_student_response(
+        chat_dict, answer.decision, question_server, answer.message
+    )
+
+    return chat_dict
 
 
 def handle_assistant_greeting(
-    chat: Chat,
+    chat_dict: dict[str, Chat],
     question_server: QuestionServer,
-) -> Chat:
+) -> dict[str, Chat]:
     """
     Adds initial system prompt to chat, generates assistant
     greeting and adds first question.
     """
+
+    # proctor system chat only goes to main chat
     system_prompt = get_system_prompt(role="assistant", prompt_type="initial")
-    chat.add_system_message(system_prompt)
+    chat_dict = add_system_message(chat_dict, chat="main_chat", prompt=system_prompt)
     print(system_prompt)
 
     print("Getting greeting from assistant...")
-    response = model(chat, Greeting)
+    response = model(chat_dict["main_chat"], Greeting)
     greeting = Greeting.model_validate_json(response)
-    chat.add_assistant_message(greeting.message)
+    chat_dict = update_all_chats(chat_dict, role="proctor", prompt=greeting.message)
 
-    chat = handle_next_question(chat, question_server)
-    return chat
+    chat_dict = handle_next_question(chat_dict, question_server)
+    return chat_dict
 
 
 def handle_assistant_response(
-    chat: Chat,
+    chat_dict: dict[str, Chat],
     question_server: QuestionServer,
-) -> Chat:
+) -> dict[str, Chat]:
     """
     Prompt model to respond to last student message.
     Model will decide either to proceed to the next question
@@ -274,18 +369,18 @@ def handle_assistant_response(
     """
 
     # first get response to student's last message
-    print("Getting assitant response to student input...")
-    response_json = model(chat, Response)
+    print("Getting assistant response to student input...")
+    response_json = model(chat_dict["main_chat"], Response)
     response = Response.model_validate_json(response_json)
 
     # Full JSON response stored as system message and logged to console
     # Only "message" attribute revealed to user
-    chat.add_assistant_message(response.message)
+    chat_dict = update_all_chats(chat_dict, role="proctor", prompt=response.message)
     system_message = f"Full assistant response in JSON format: {response_json}"
-    chat.add_system_message(system_message)
+    chat_dict = add_system_message(chat_dict, chat="main_chat", prompt=system_message)
 
     # model decided to move on to next question
     if response.decision == "next_question":
-        chat = handle_next_question(chat, question_server)
+        chat_dict = handle_next_question(chat_dict, question_server)
 
-    return chat
+    return chat_dict

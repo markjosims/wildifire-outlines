@@ -3,16 +3,21 @@ Based off demo in https://docs.streamlit.io/develop/tutorials/chat-and-llm-apps/
 """
 
 from re import A
+import chat
 import streamlit as st
 from chat import (
     QuestionServer,
     handle_assistant_greeting,
     handle_next_question,
     handle_student_response,
+    handle_lm_student_response,
     handle_assistant_response,
 )
 from outlines.inputs import Chat
 from typing import Optional, Literal
+import os
+
+assessment_type: Literal["human", "ai"] = os.getenv("ASSESSMENT_TYPE", "human")
 
 st.title("Wildfire demo assessment")
 
@@ -26,16 +31,20 @@ def get_question_server():
 
 
 def get_chat():
-    if "chat" in st.session_state:
-        return st.session_state.chat
-    chat = Chat()
-    chat = handle_assistant_greeting(chat, st.session_state.question_server)
-    st.session_state.chat = chat
-    return chat
+    if "chat_dict" in st.session_state:
+        return st.session_state.chat_dict
+    chat_dict = {"main_chat": Chat()}
+
+    if assessment_type == "ai":
+        chat_dict["student_chat"] = Chat()
+
+    chat_dict = handle_assistant_greeting(chat_dict, st.session_state.question_server)
+    st.session_state.chat_dict = chat_dict
+    return chat_dict
 
 
 def get_user_response_type() -> Optional[Literal["Answer", "Ask for clarification"]]:
-    chat: Chat = st.session_state.chat
+    chat_dict: Chat = st.session_state.chat_dict
     question_server: QuestionServer = st.session_state.question_server
     question_status = question_server.get_question_status()
     if question_status == "attempts_and_clarifications":
@@ -47,11 +56,11 @@ def get_user_response_type() -> Optional[Literal["Answer", "Ask for clarificatio
             label="Response type", options=["Answer"], default="Answer"
         )
     elif question_status == "no_attempts":
-        handle_next_question(chat, question_server)
+        handle_next_question(chat_dict, question_server)
         user_response_type = None
         st.rerun()
     else:
-        raise ValueError(f"Unrecognized question status", question_status)
+        raise ValueError("Unrecognized question status", question_status)
     return user_response_type
 
 
@@ -59,35 +68,48 @@ get_question_server()
 get_chat()
 
 # print all non-system messages to chat
-for message in st.session_state.chat.messages:
+for message in st.session_state.chat_dict["main_chat"].messages:
     if message["role"] == "system":
         continue
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-# allow user to choose between "answer" and "ask for clarification"
-# based on previous question
-user_response_type = get_user_response_type()
+# get ai student reponse, if applicable
+if assessment_type == "ai":
+    chat_dict = st.session_state.chat_dict
+    question_server = st.session_state.question_server
+    chat_dict = handle_lm_student_response(chat_dict, question_server)
+    chat_dict = handle_assistant_response(chat_dict, question_server)
+    st.rerun()
+
 
 # get user's response to assistant's last message
 # user must select response type before chat will be enabled
-if prompt := st.chat_input("Type response here", disabled=not user_response_type):
-    # prepend response type to prompt for transparency when printed to chat
-    prompt = f"({user_response_type}) {prompt}"
+else:
+    # allow user to choose between "answer" and "ask for clarification"
+    # based on previous question
+    user_response_type = get_user_response_type()
 
-    chat = st.session_state.chat
-    question_server = st.session_state.question_server
-    handle_student_response(chat, user_response_type, question_server, prompt)
+    if prompt := st.chat_input("Type response here", disabled=not user_response_type):
+        assert user_response_type is not None
+        # prepend response type to prompt for transparency when printed to chat
+        prompt = f"({user_response_type}) {prompt}"
 
-    with st.chat_message("user"):
-        st.markdown(prompt)
+        chat_dict = st.session_state.chat_dict
+        question_server = st.session_state.question_server
+        handle_student_response(chat_dict, user_response_type, question_server, prompt)
 
-# give user prompt to assistant and let assistant decide to follow up
-# or ask next question
-if prompt:
-    chat = st.session_state.chat
-    chat = handle_assistant_response(chat, st.session_state.question_server)
+        with st.chat_message("user"):
+            st.markdown(prompt)
 
-    st.session_state.chat = chat
-    # rerun app so messages will be printed, as handled above
-    st.rerun()
+    # give user prompt to assistant and let assistant decide to follow up
+    # or ask next question
+    if prompt:
+        chat_dict = st.session_state.chat_dict
+        chat_dict = handle_assistant_response(
+            chat_dict, st.session_state.question_server
+        )
+
+        st.session_state.chat_dict = chat_dict
+        # rerun app so messages will be printed, as handled above
+        st.rerun()
