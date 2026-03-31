@@ -20,7 +20,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 
-openai_model = os.environ.get("OPENAI_MODEL", "gpt-4o")
+openai_model = os.environ.get("OPENAI_MODEL", "gpt-5.4-mini")
 client = OpenAI()
 model = outlines.from_openai(client, openai_model)
 
