@@ -26,6 +26,8 @@ st.title("Wildfire demo assessment")
 
 assessment_type = st.pills(label="Student type:", options=["human", "ai"])
 
+teacher_mode = st.checkbox(label="Teacher mode")
+
 
 def get_question_server():
     if "question_server" in st.session_state:
@@ -83,7 +85,8 @@ for message in st.session_state.chat_dict["main_chat"].messages:
 # for now do this both in AI and human mode
 # at production time this will need to be hidden from the student
 if (
-    "proctor_response_list" in st.session_state
+    teacher_mode
+    and "proctor_response_list" in st.session_state
     and st.session_state.proctor_response_list
 ):
     latest_response: Response = st.session_state.proctor_response_list[-1]
@@ -92,7 +95,11 @@ if (
         st.caption(latest_response.reasoning)
 
 # display evaluator scores from previous turn, if any
-if "evaluator_scores" in st.session_state and st.session_state.evaluator_scores:
+if (
+    teacher_mode
+    and "evaluator_scores" in st.session_state
+    and st.session_state.evaluator_scores
+):
     latest: EvaluatorResponse = st.session_state.evaluator_scores[-1]
     with st.expander("Evaluator scores (last proctor turn)"):
         col1, col2, col3 = st.columns(3)
